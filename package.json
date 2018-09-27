@@ -1,0 +1,19 @@
+{
+  "name": "html5-jquery-landing-demo",
+  "version": "1.0.0",
+  "description": "The first landing page markup",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hornuglan/HTML5-JQuery-landing-demo.git"
+  },
+  "author": "hornuglan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hornuglan/HTML5-JQuery-landing-demo/issues"
+  },
+  "homepage": "https://github.com/hornuglan/HTML5-JQuery-landing-demo#readme"
+}
