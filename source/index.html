@@ -11,8 +11,8 @@
         <link href="css/style.css" rel="stylesheet">
     </head>
     <body>
-        <header class="container page-header">
-            <div class="logo">
+        <header class="page-header bg-secondary">
+            <div class="logo d-flex">
                 <a href="#">
                     <svg xmlns="http://www.w3.org/2000/svg" 
                         xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="56"
@@ -169,7 +169,7 @@
                 <div class="category-item">Illustration</div>
                 <div class="category-item">Photography</div>
             </div>
-            <div class="row projects__wrapper">
+            <div class="d-flex flex-wrap justify-content-center projects__wrapper">
             <div class="col-sm-2 card-body projects__item">
                 <img class="card-img-top projects__item-img" src="images/projects-item-1-img.jpg">
                 <h3 class="h3 card-title text-center project__item-title">Claritas Etiam Processus</h3>
@@ -203,8 +203,8 @@
             </div>
             <div type="button" class="btn button">Load More</div>
         </div>
-        <div class="promo">
-            <div class="text-center promo__button">
+        <div class="promo bg-dark">
+            <div class="promo__button text-center">
                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="70" height="70" viewBox="0 0 70 70"><defs><path id="gi8ca" d="M955.93 3685.82a2.06 2.06 0 0 1-2.06-2.06v-29.53a2.06 2.06 0 0 1 3.38-1.58l17.72 14.77a2.06 2.06 0 0 1 0 3.16l-17.72 14.76c-.37.32-.84.48-1.32.48zm2.06-27.19v20.73l12.44-10.36zm2.95 45.37a34.8 34.8 0 0 1-17.1-4.47 2.06 2.06 0 1 1 2.01-3.6 30.99 30.99 0 0 0 37-5.08 30.93 30.93 0 0 0 0-43.7 30.93 30.93 0 0 0-43.7 0 30.93 30.93 0 0 0 0 43.7 2.06 2.06 0 0 1-2.91 2.9 35.06 35.06 0 0 1 0-49.51 35.06 35.06 0 0 1 49.52 0 35.06 35.06 0 0 1 0 49.52 35.1 35.1 0 0 1-24.82 10.24z"/></defs><g><g transform="translate(-926 -3634)"><use xlink:href="#gi8ca"/><use fill="#fff" xlink:href="#gi8ca"/></g></g></svg>
             </div>
             <div class="promo__description">
@@ -215,39 +215,61 @@
                 </p>
             </div>
         </div>
-        <div class="mobile">
-            <h1 class="mobile__title">Excellent for Mobile Devices.</h1>
+        <div class="mobile container d-flex flex-row">
+            <div class="mobile__img">
+                <img src="images/mobile-img.jpg">
+            </div>
             <div class="mobile__text">
+                <h1 class="mobile__title">Excellent for Mobile Devices.</h1>
                 <p>
-                    Qisi enim ad&nbsp;minim veniam, quis nostrud exerci tation ullamcorper 
-                    suscipit lobortis nisl ut&nbsp;aliquip ex&nbsp;ea&nbsp;commodo consequat. 
-                    Investigationes demonstraverunt lectores legere me&nbsp;lius quod ii&nbsp;legunt 
-                    saepius claritas. Eodem modo typi, qui nunc nobis videntur parum clari, 
+                    Qisi enim ad&nbsp;minim veniam, quis nostrud exerci tation ullamcorper
+                    suscipit lobortis nisl ut&nbsp;aliquip ex&nbsp;ea&nbsp;commodo consequat.
+                    Investigationes demonstraverunt lectores legere me&nbsp;lius quod ii&nbsp;legunt
+                    saepius claritas. Eodem modo typi, qui nunc nobis videntur parum clari,
                     fiant sollemnes in&nbsp;futurum.
                 </p>
+                <ul class="mobile__list">
+                    <li class="mobile__list-item">
+                        Nam liber tempor cum soluta nobis eleifend option;
+                    </li>
+                    <li class="mobile__list-item">
+                        Option congue nihil imperdiet doming id&nbsp;quod mazim placerat facer;
+                    </li>
+                    <li class="mobile__list-item">
+                        Eodem modo typi, qui nunc nobis videntur parum futurum;
+                    </li>
+                    <li class="mobile__list-item">
+                        Investigationes demonstraverunt lectores
+                    </li>
+                </ul>
             </div>
-            <ul class="mobile__list">
-                <li class="mobile__list-item">
-                    Nam liber tempor cum soluta nobis eleifend option;
-                </li>
-                <li class="mobile__list-item">
-                    Option congue nihil imperdiet doming id&nbsp;quod mazim placerat facer;
-                </li>
-                <li class="mobile__list-item">
-                    Eodem modo typi, qui nunc nobis videntur parum futurum;
-                </li>
-                <li class="mobile__list-item">
-                    Investigationes demonstraverunt lectores
-                </li>
-            </ul>
-            <div class="mobile__image"></div>
         </div>
-        <div class="statistics">
-            <div class="statistics__item"></div>
-            <div class="statistics__item"></div>
-            <div class="statistics__item"></div>
-            <div class="statistics__item"></div>
-            <div class="statistics__item"></div>
+        <div class="statistics d-flex justify-content-around bg-secondary">
+            <div class="statistics__item">
+                <img class="statistics__item-img" src="images/icon-people.svg">
+                <p class="statistics__item-num">3587</p>
+                <p class="statistics__item-text">Satisfied Clients</p>
+            </div>
+            <div class="statistics__item">
+                <img class="statistics__item-img" src="images/icon-cup.svg">
+                <p class="statistics__item-num">207</p>
+                <p class="statistics__item-text">Cups of&nbsp;coffee</p>
+            </div>
+            <div class="statistics__item">
+                <img class="statistics__item-img" src="images/icon-chat.svg">
+                <p class="statistics__item-num">2500</p>
+                <p class="statistics__item-text">Blog posts</p>
+            </div>
+            <div class="statistics__item">
+                <img class="statistics__item-img" src="images/icon-heart.svg">
+                <p class="statistics__item-num">873</p>
+                <p class="statistics__item-text">Likes</p>
+            </div>
+            <div class="statistics__item">
+                <img class="statistics__item-img" src="images/icon-dish.svg">
+                <p class="statistics__item-num">900</p>
+                <p class="statistics__item-text">We&nbsp;launched</p>
+            </div>
         </div>
         <div class="container recent">
             <div class="recent__header">
@@ -256,7 +278,7 @@
                     Investigationes demonstraverunt lectores legere me&nbsp;lius quod ii&nbsp;legunt 
                     saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.
             </div>
-            <div class="d-flex bd-highlight recent__row">
+            <div class="d-flex d-flex justify-content-around recent__row">
             <div class="card post">
                 <img class="card-img-top post__img" src="images/recent-post-1-img.jpg">
                 <div class="card-body post__body">
@@ -289,29 +311,101 @@
             </div>
         </div>
     </div>
-        <div class="clients">
+        <div class="clients d-flex justify-content-around bg-dark">
             <div class="clients__logo">
-                <img src="images/client-logo-1-img.jpg">
+                <img src="images/icon-client-logo-1.svg">
             </div>
             <div class="clients__logo">
-                <img src="images/client-logo-2-img.jpg">
+                <img src="images/icon-client-logo-2.svg">
             </div>
             <div class="clients__logo">
-                <img src="images/client-logo-3-img.jpg">
+                <img src="images/icon-client-logo-3.svg">
             </div>
             <div class="clients__logo">
-                <img src="images/client-logo-4-img.jpg">
+                <img src="images/icon-client-logo-4.svg">
             </div>
         </div>
-        <div class="social">
-            <div class="logo"></div>
-            <div class="description"></div>
-            <div class="posts"></div>
-            <div class="twitter"></div>
-            <div class="widget"></div>
+        <div class="social d-flex">
+            <div class="company flex-fill">
+                <div class="company__logo">
+                    <img class="company__logo-img" src="images/icon-logo.svg">
+                    <img class="company__logo-trademark" src="images/icon-trademark.svg">
+                </div>
+                <div class="company__text">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, 
+                        sed diam nonummy nibh euismod tincidunt ut&nbsp;laoreet dolore 
+                        magna aliquam erat volutpat. Ut&nbsp;wisi enim ad&nbsp;minim veniam, 
+                        quis nostrud exerci suscipit lobortis claritatem.
+                </div>
+                <a class="company__button">Read More</a>
+            </div>
+            <div class="posts flex-fill">
+                <h2 class="posts__title">Recent Posts</h2>
+                <div class="posts__item">
+                    <p class="posts__item-date">
+                        September&nbsp;08, 2015
+                    </p>
+                    <p class="posts__item-text">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit
+                    </p>
+                </div>
+                <div class="posts__item">
+                    <p class="posts__item-date">
+                        September&nbsp;08, 2015
+                    </p>
+                    <p class="posts__item-text">
+                        Diam nonummy nibh euismod tincidunt ut&nbsp;laoreet dolore magna
+                    </p>
+                </div>
+                <div class="posts__item">
+                    <p class="posts__item-date">
+                        September&nbsp;08, 2015
+                    </p>
+                    <p class="posts__item-text">
+                        Claritas est etiam processus dynamicus, qui sequitur mutationem per seacula quarta decima
+                    </p>
+                </div>
+            </div>
+            <div class="twitter flex-fill">
+                <h2 class="twitter__title">Our Twitter</h2>
+                <div class="twitter__post">
+                    <p class="twitter__post-text">
+                        @waxom Cum soluta nobis eleifend option congue nihil imperdiet doming
+                    </p>
+                    <p class="twitter__post-date">
+                        3&nbsp;mins ago
+                    </p>
+                </div>
+                <div class="twitter__post">
+                    <p class="twitter__post-text">
+                        Mirum est #envato notare quam littera gothica, quam nunc putamus 
+                        parum anteposuerit litterarum
+                    </p>
+                    <p class="twitter__post-date">
+                        5&nbsp;hours ago
+                    </p>
+                </div>
+                <div class="twitter__post">
+                    <p class="twitter__post-text">
+                        Soluta nobis option bit.ly/1Hniso7
+                    </p>
+                    <p class="twitter__post-date">
+                        20&nbsp;days ago
+                    </p>
+                </div>
+            </div>
+            <div class="widget flex-fill">
+                <h2 class="widget__title">Dribbble Widget</h2>
+                <div class="widget__wrapper d-flex">
+                <img class="widget__img" src="images/widget-photo-1-img.jpg">
+                <img class="widget__img" src="images/widget-photo-2-img.jpg">
+                <img class="widget__img" src="images/widget-photo-3-img.jpg">
+                <img class="widget__img" src="images/widget-photo-4-img.jpg">
+                </div>
+            </div>
         </div>
-        <footer class="page-footer">
-            <ul class="copyright">
+        <footer class="page-footer d-flex">
+            <ul class="copyright list-inline d-flex">
                 <li>
                     <a href="#" class="copyright__link">Copyright &copy;&nbsp;2015 Waxom</a>
                 </li>
@@ -325,7 +419,7 @@
                     <a href="#" class="copyright__link">Support</a>
                 </li>
             </ul>
-            <ul class="design">
+            <ul class="design list-inline d-flex">
                 <li class="design__item">
                     Designed by&nbsp;ThemeFire
                 </li>
