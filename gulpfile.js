@@ -4,8 +4,27 @@ var gulp = require('gulp');
 
 // Include Our Plugins
 var sass = require('gulp-sass');
+var connect = require('gulp-connect');
 var browserSync  = require('browser-sync').create();
 
+gulp.task('myStyles', function () {
+  gulp.src('./source/Sass/**/*.scss')
+    .pipe(sass())
+    .pipe(gulp.dest('./source/css'))
+    .pipe(connect.reload());
+});
+
+gulp.task('connect', function() {
+  connect.server({
+    livereload: true
+  });
+});
+
+gulp.task('watchMyStyles', function() {
+  gulp.watch('./source/Sass/**/*.scss', ['myStyles']);
+});
+
+gulp.task('default', ['watchMyStyles', 'connect']);
 
 var lr = require('tiny-lr'),
   refresh = require('gulp-livereload'),
