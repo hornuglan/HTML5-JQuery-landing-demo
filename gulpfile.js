@@ -1,13 +1,37 @@
+"use strict";
 // Include gulp
 var gulp = require('gulp');
 
 // Include Our Plugins
 var sass = require('gulp-sass');
+var browserSync  = require('browser-sync').create();
+
 
 var lr = require('tiny-lr'),
   refresh = require('gulp-livereload'),
   server = lr();
 
+// BrowserSync
+function browserSync(done) {
+  browsersync.init({
+    server: {
+      baseDir: "./HTML5-JQuery-landing-demo/"
+    },
+    port: 3000
+  });
+  done();
+}
+
+// BrowserSync Reload
+function browserSyncReload(done) {
+  browsersync.reload();
+  done();
+}
+
+// Clean assets
+function clean() {
+  return del(["./HTML5-JQuery-landing-demo/assets/"]);
+}
 
 // Task SASS
 gulp.task('sass', function() {
