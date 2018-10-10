@@ -1,12 +1,19 @@
 .logo {
+  display: flex;
+  flex-direction: row;
+  padding-top: 38px;
+  padding-left: 296px;
   &__img {
     width: 64px;
     height: 56px;
   }
   &__trademark {
+    display: block;
     width: 115px;
-    height: 26px;
+    height: 50px;
+    font-family: Raleway;
     font-size: 34px;
     font-weight: 400;
+    letter-spacing: -1.36px;
   }
 }
