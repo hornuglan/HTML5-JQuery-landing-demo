@@ -49,7 +49,7 @@ function browserSyncReload(done) {
 
 // Clean assets
 function clean() {
-  return del(["./HTML5-JQuery-landing-demo/assets/"]);
+  return del(["./HTML5-JQuery-landing-demo/"]);
 }
 
 // Task SASS
