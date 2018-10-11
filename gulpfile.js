@@ -3,9 +3,9 @@ var scssPlugin = require('gulp-sass');
 var connect = require('gulp-connect');
 
 gulp.task('sass', function () {
-  gulp.src('source/Sass/*.scss')
+  gulp.src('source/Sass/**/*.scss')
     .pipe(scssPlugin())
-    .pipe(gulp.dest('css'))
+    .pipe(gulp.dest('source/css'))
     .pipe(connect.reload());
 });
 
