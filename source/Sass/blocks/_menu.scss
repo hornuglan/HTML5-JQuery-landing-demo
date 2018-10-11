@@ -1,17 +1,18 @@
 .menu {
+  position: absolute;
+  top: 55px;
+  right: -294px;
   display: flex;
   flex-direction: row;
-  padding-right: 279px;
-  padding-top: 54px;
   list-style: none;
-  font-family: Montserrat;
-  font-size: 14px;
-  font-weight: 300;
   &__item-link {
     text-decoration: none;
-    color: white;
+    color: black;
     padding-right: 20px;
     padding-left: 20px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
     cursor: pointer;
     &:hover {
       text-decoration: none;

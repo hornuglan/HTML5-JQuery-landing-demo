@@ -6371,39 +6371,43 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6; } }
 
 .page-header {
+  display: flex;
+  flex-direction: row;
   justify-content: space-around; }
 
 .logo {
   display: flex;
   flex-direction: row;
-  padding-top: 38px;
-  padding-left: 296px; }
+  position: absolute;
+  left: 374px;
+  top: 38px; }
   .logo__img {
     width: 64px;
     height: 56px; }
-  .logo__trademark {
-    display: block;
+  .logo__trademark-link {
     width: 115px;
     height: 50px;
+    color: white;
     font-family: Raleway;
     font-size: 34px;
     font-weight: 400;
     letter-spacing: -1.36px; }
 
 .menu {
+  position: absolute;
+  top: 55px;
+  right: -294px;
   display: flex;
   flex-direction: row;
-  padding-right: 279px;
-  padding-top: 54px;
-  list-style: none;
-  font-family: Montserrat;
-  font-size: 14px;
-  font-weight: 300; }
+  list-style: none; }
   .menu__item-link {
     text-decoration: none;
-    color: white;
+    color: black;
     padding-right: 20px;
     padding-left: 20px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
     cursor: pointer; }
     .menu__item-link:hover {
       text-decoration: none;
@@ -6411,3 +6415,6 @@ a.text-dark:hover, a.text-dark:focus {
       font-family: Montserrat;
       font-size: 14px;
       font-weight: 300; }
+
+.sample {
+  background-color: #1c7430; }
