@@ -1,6 +1,6 @@
 .menu {
   position: absolute;
-  top: 55px;
+  top: 60px;
   right: 15px;
   display: flex;
   flex-direction: row;
@@ -8,6 +8,7 @@
   &__item-link {
     text-decoration: none;
     color: $white;
+    fill: $white;
     padding-right: 20px;
     padding-left: 20px;
     font-family: Montserrat;
@@ -16,6 +17,7 @@
     cursor: pointer;
     &:hover {
       text-decoration: none;
+      fill: $menu-link-hover;
       color: $menu-link-hover;
       font-family: Montserrat;
       font-size: 14px;

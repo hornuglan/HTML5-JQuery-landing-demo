@@ -4,17 +4,22 @@
   position: absolute;
   left: 30px;
   top: 40px;
+  cursor: pointer;
   &__img {
     width: 64px;
     height: 56px;
   }
   &__trademark-link {
     width: 115px;
-    height: 50px;
     color: white;
     font-family: Raleway, sans-serif;
     font-size: 34px;
     font-weight: 400;
     letter-spacing: -1.36px;
+    line-height: 56px;
+    &:hover {
+      text-decoration: none;
+      color: $white;
+    }
   }
 }

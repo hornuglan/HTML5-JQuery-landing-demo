@@ -2,60 +2,6 @@ a {
   text-decoration: none;
   color: white; }
 
-@font-face {
-  font-family: "Roboto", sans-serif;
-  src: local("Roboto Regular"), url("../fonts/Roboto-Regular.ttf") format(".ttf");
-  font-weight: 400;
-  font-style: normal; }
-
-@font-face {
-  font-family: "Montserrat", sans-serif;
-  src: local("Montserrat Light"), url("../fonts/Montserrat/Montserrat-Light.ttf") format(".ttf");
-  font-weight: 300;
-  font-style: normal; }
-
-@font-face {
-  font-family: "Montserrat", sans-serif;
-  src: local("Montserrat Regular"), url("../fonts/Montserrat/Montserrat-Regular.ttf") format(".ttf");
-  font-weight: 400;
-  font-style: normal; }
-
-@font-face {
-  font-family: "Montserrat", sans-serif;
-  src: local("Montserrat Extra-Light"), url("../fonts/Montserrat/Montserrat-ExtraLight.ttf") format(".ttf");
-  font-weight: 200;
-  font-style: normal; }
-
-@font-face {
-  font-family: "Raleway", sans-serif;
-  src: local("Raleway-Regular"), url("/HTML5-JQuery-landing-demo/source/fonts/Raleway-Regular.ttf") format("ttf");
-  font-weight: 400;
-  font-style: normal; }
-
-@font-face {
-  font-family: "Raleway", sans-serif;
-  src: local("Raleway Medium"), url("../fonts/Raleway-Medium.ttf") format(".ttf");
-  font-weight: 500;
-  font-style: normal; }
-
-@font-face {
-  font-family: "Raleway", sans-serif;
-  src: local("Raleway Semi-Bold"), url("../fonts/Raleway-SemiBold.ttf") format(".ttf");
-  font-weight: 600;
-  font-style: normal; }
-
-@font-face {
-  font-family: "Raleway", sans-serif;
-  src: local("Raleway Bold"), url("../fonts/Raleway-Bold.ttf") format(".ttf");
-  font-weight: 700;
-  font-style: normal; }
-
-@font-face {
-  font-family: "Raleway", sans-serif;
-  src: local("Raleway Extra-Bold"), url("../fonts/Raleway-ExtraBold.ttf") format(".ttf");
-  font-weight: 800;
-  font-style: normal; }
-
 .container-fluid {
   position: relative;
   max-width: 1230px;
@@ -6386,22 +6332,26 @@ a.text-dark:hover, a.text-dark:focus {
   flex-direction: row;
   position: absolute;
   left: 30px;
-  top: 40px; }
+  top: 40px;
+  cursor: pointer; }
   .logo__img {
     width: 64px;
     height: 56px; }
   .logo__trademark-link {
     width: 115px;
-    height: 50px;
     color: white;
     font-family: Raleway, sans-serif;
     font-size: 34px;
     font-weight: 400;
-    letter-spacing: -1.36px; }
+    letter-spacing: -1.36px;
+    line-height: 56px; }
+    .logo__trademark-link:hover {
+      text-decoration: none;
+      color: #ffffff; }
 
 .menu {
   position: absolute;
-  top: 55px;
+  top: 60px;
   right: 15px;
   display: flex;
   flex-direction: row;
@@ -6409,6 +6359,7 @@ a.text-dark:hover, a.text-dark:focus {
   .menu__item-link {
     text-decoration: none;
     color: #ffffff;
+    fill: #ffffff;
     padding-right: 20px;
     padding-left: 20px;
     font-family: Montserrat;
@@ -6417,6 +6368,7 @@ a.text-dark:hover, a.text-dark:focus {
     cursor: pointer; }
     .menu__item-link:hover {
       text-decoration: none;
+      fill: #c7b299;
       color: #c7b299;
       font-family: Montserrat;
       font-size: 14px;
