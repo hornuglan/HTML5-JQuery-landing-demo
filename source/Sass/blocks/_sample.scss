@@ -2,4 +2,20 @@
   background-color: #1c7430;
   padding-top: 260px;
   color: $white;
+  &__title {
+    font-family: Raleway;
+    font-size: 36px;
+    font-weight: 500;
+  }
+  &__tagline {
+    font-family: "Raleway - Extra Bold";
+    font-size: 52px;
+    font-weight: 700;
+  }
+  &__text {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5;
+  }
 }
