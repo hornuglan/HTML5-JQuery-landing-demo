@@ -1,13 +1,13 @@
 .menu {
   position: absolute;
   top: 55px;
-  right: -294px;
+  right: 15px;
   display: flex;
   flex-direction: row;
   list-style: none;
   &__item-link {
     text-decoration: none;
-    color: black;
+    color: $white;
     padding-right: 20px;
     padding-left: 20px;
     font-family: Montserrat;

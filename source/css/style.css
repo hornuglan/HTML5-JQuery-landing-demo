@@ -4,57 +4,63 @@ a {
 
 @font-face {
   font-family: "Roboto", sans-serif;
-  src: local("Roboto Regular"), url("/HTML5-JQuery-landing-demo/source/fonts/Roboto/Roboto-Regular.ttf") format(".ttf");
+  src: local("Roboto Regular"), url("source/fonts/Roboto/Roboto-Regular.ttf") format(".ttf");
   font-weight: 400;
   font-style: normal; }
 
 @font-face {
   font-family: "Montserrat", sans-serif;
-  src: local("Montserrat Light"), url("/HTML5-JQuery-landing-demo/source/fonts/Montserrat/Montserrat-Light.ttf") format(".ttf");
+  src: local("Montserrat Light"), url("source/fonts/Montserrat/Montserrat-Light.ttf") format(".ttf");
   font-weight: 300;
   font-style: normal; }
 
 @font-face {
   font-family: "Montserrat", sans-serif;
-  src: local("Montserrat Regular"), url("/HTML5-JQuery-landing-demo/source/fonts/Montserrat/Montserrat-Regular.ttf") format(".ttf");
+  src: local("Montserrat Regular"), url("source/fonts/Montserrat/Montserrat-Regular.ttf") format(".ttf");
   font-weight: 400;
   font-style: normal; }
 
 @font-face {
   font-family: "Montserrat", sans-serif;
-  src: local("Montserrat Extra-Light"), url("/HTML5-JQuery-landing-demo/source/fonts/Montserrat/Montserrat-ExtraLight.ttf") format(".ttf");
+  src: local("Montserrat Extra-Light"), url("source/fonts/Montserrat/Montserrat-ExtraLight.ttf") format(".ttf");
   font-weight: 200;
   font-style: normal; }
 
 @font-face {
   font-family: "Raleway", sans-serif;
-  src: local("Raleway Regular"), url("/HTML5-JQuery-landing-demo/source/fonts/Raleway/Raleway-Regular.ttf") format(".ttf");
+  src: local("Raleway Regular"), url("source/fonts/Raleway/Raleway-Regular.ttf") format(".ttf");
   font-weight: 400;
   font-style: normal; }
 
 @font-face {
   font-family: "Raleway", sans-serif;
-  src: local("Raleway Medium"), url("/HTML5-JQuery-landing-demo/source/fonts/Raleway/Raleway-Medium.ttf") format(".ttf");
+  src: local("Raleway Medium"), url("source/fonts/Raleway/Raleway-Medium.ttf") format(".ttf");
   font-weight: 500;
   font-style: normal; }
 
 @font-face {
   font-family: "Raleway", sans-serif;
-  src: local("Raleway Semi-Bold"), url("/HTML5-JQuery-landing-demo/source/fonts/Raleway/Raleway-SemiBold.ttf") format(".ttf");
+  src: local("Raleway Semi-Bold"), url("source/fonts/Raleway/Raleway-SemiBold.ttf") format(".ttf");
   font-weight: 600;
   font-style: normal; }
 
 @font-face {
   font-family: "Raleway", sans-serif;
-  src: local("Raleway Bold"), url("/HTML5-JQuery-landing-demo/source/fonts/Raleway/Raleway-Bold.ttf") format(".ttf");
+  src: local("Raleway Bold"), url("source/fonts/Raleway/Raleway-Bold.ttf") format(".ttf");
   font-weight: 700;
   font-style: normal; }
 
 @font-face {
   font-family: "Raleway", sans-serif;
-  src: local("Raleway Extra-Bold"), url("/HTML5-JQuery-landing-demo/source/fonts/Raleway/Raleway-ExtraBold.ttf") format(".ttf");
+  src: local("Raleway Extra-Bold"), url("source/fonts/Raleway/Raleway-ExtraBold.ttf") format(".ttf");
   font-weight: 800;
   font-style: normal; }
+
+.container-fluid {
+  position: relative;
+  max-width: 1230px;
+  margin-left: auto;
+  margin-right: auto; }
 
 /*!
  * Bootstrap v4.1.3 (https://getbootstrap.com/)
@@ -6379,8 +6385,8 @@ a.text-dark:hover, a.text-dark:focus {
   display: flex;
   flex-direction: row;
   position: absolute;
-  left: 374px;
-  top: 38px; }
+  left: 30px;
+  top: 40px; }
   .logo__img {
     width: 64px;
     height: 56px; }
@@ -6396,13 +6402,13 @@ a.text-dark:hover, a.text-dark:focus {
 .menu {
   position: absolute;
   top: 55px;
-  right: -294px;
+  right: 15px;
   display: flex;
   flex-direction: row;
   list-style: none; }
   .menu__item-link {
     text-decoration: none;
-    color: black;
+    color: #ffffff;
     padding-right: 20px;
     padding-left: 20px;
     font-family: Montserrat;
@@ -6417,4 +6423,6 @@ a.text-dark:hover, a.text-dark:focus {
       font-weight: 300; }
 
 .sample {
-  background-color: #1c7430; }
+  background-color: #1c7430;
+  padding-top: 260px;
+  color: #ffffff; }
