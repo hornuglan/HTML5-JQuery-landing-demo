@@ -1,16 +1,11 @@
 .sample {
-  background-color: rgba(17, 17, 17, 0.7);
   color: $white;
-  position: relative;
-  z-index: 2;
   &__wrapper {
     display: flex;
     flex-direction: column;
     align-content: center;
     margin-right: auto;
     margin-left: auto;
-    position: absolute;
-    top: 380px;
   }
   &__title {
     font-family: Raleway;
