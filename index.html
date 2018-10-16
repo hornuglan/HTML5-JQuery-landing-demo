@@ -60,8 +60,13 @@
                     </a>
                 </li>
             </ul>
-            <div class="sample">
-                <div class="sample__wrapper">
+          </div>
+        </header>
+        <div class="carousel container-fluid">
+          <div class="carousel__wrapper">
+            <div class="carousel__item carousel-item">
+              <img class="carousel__item-img" src="source/images/header-bg.jpg">
+              <div class="sample">
                 <h1 class="sample__title h1 text-center">Unique and Modern Design</h1>
                 <h2 class="sample__tagline h2 text-center">Portfolio PSD Template</h2>
                 <p class="sample__text text-center">
@@ -71,21 +76,38 @@
                 <div class="sample__button d-flex justify-content-center">
                   <button type="button" class="sample__button-link btn center-block">Get Started</button>
                 </div>
+              </div>
+            </div>
+            <div class="carousel__item carousel-item">
+              <img class="carousel__item-img" src="source/images/header-bg.jpg">
+              <div class="sample">
+                <h1 class="sample__title h1 text-center">Unique and Modern Design</h1>
+                <h2 class="sample__tagline h2 text-center">Portfolio PSD Template</h2>
+                <p class="sample__text text-center">
+                  Nam liber tempor cum soluta nobis eleifend option congue nihil
+                  imperdiet doming id&nbsp;quod mazim placerat facer possim assum.
+                </p>
+                <div class="sample__button d-flex justify-content-center">
+                  <button type="button" class="sample__button-link btn center-block">Get Started</button>
                 </div>
               </div>
-          </div>
-        </header>
-        <div class="carousel">
-            <div class="carousel__item">
-              <img class="carousel__item-img" src="source/images/header-bg.jpg">
             </div>
-             <div class="carousel__item">
-               <img class="carousel__item-img" src="source/images/header-bg.jpg">
-             </div>
-             <div class="carousel__item">
-               <img class="carousel__item-img" src="source/images/header-bg.jpg">
-             </div>
+            <div class="carousel__item carousel-item">
+              <img class="carousel__item-img" src="source/images/header-bg.jpg">
+              <div class="sample">
+                <h1 class="sample__title h1 text-center">Unique and Modern Design</h1>
+                <h2 class="sample__tagline h2 text-center">Portfolio PSD Template</h2>
+                <p class="sample__text text-center">
+                  Nam liber tempor cum soluta nobis eleifend option congue nihil
+                  imperdiet doming id&nbsp;quod mazim placerat facer possim assum.
+                </p>
+                <div class="sample__button d-flex justify-content-center">
+                  <button type="button" class="sample__button-link btn center-block">Get Started</button>
+                </div>
+              </div>
+            </div>
           </div>
+        </div>
 
         <div class="features container d-flex flex-row">
             <div class="advantage d-flex flex-column align-items-center">
@@ -424,15 +446,15 @@
         <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
         <script type="text/javascript" src="source/carousel/slick/slick.min.js"></script>
         <script type="text/javascript">
-            $('.carousel').slick(
-              {
-  dots: true,
-  infinite: true,
-  speed: 300,
-  slidesToShow: 1,
-  adaptiveHeight: true
-}
-            );
+          $('.carousel__wrapper').slick(
+            {
+              dots: true,
+              arrows: true,
+              infinite: true,
+              speed: 300,
+              slidesToShow: 1,
+            }
+          );
         </script>
     </body>
 </html>
