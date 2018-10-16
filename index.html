@@ -63,7 +63,7 @@
           </div>
         </header>
         <div class="carousel container-fluid">
-          <div class="carousel__wrapper">
+          <div class="js-carousel">
             <div class="carousel__item carousel-item">
               <img class="carousel__item-img" src="source/images/header-bg.jpg">
               <div class="sample">
@@ -445,16 +445,6 @@
         <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
         <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
         <script type="text/javascript" src="source/carousel/slick/slick.min.js"></script>
-        <script type="text/javascript">
-          $('.carousel__wrapper').slick(
-            {
-              dots: true,
-              arrows: true,
-              infinite: true,
-              speed: 300,
-              slidesToShow: 1,
-            }
-          );
-        </script>
+        <script src="source/script/header-carousel.js"></script>
     </body>
 </html>
