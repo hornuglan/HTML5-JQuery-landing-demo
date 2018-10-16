@@ -1,0 +1,30 @@
+.arrow-prev {
+  width: 40px;
+  height: 73px;
+  cursor: pointer;
+  position: absolute;
+  top: 58%;
+  left: 6%;
+  z-index: 2;
+  fill: $white;
+  opacity: 0.5;
+  &:hover {
+    fill: #d3c1ad;
+  }
+}
+
+.arrow-next {
+  width: 40px;
+  height: 73px;
+  cursor: pointer;
+  position: absolute;
+  top: 58%;
+  right: 6%;
+  left: auto;
+  z-index: 2;
+  fill: $white;
+  opacity: 0.5;
+  &:hover {
+    fill: #d3c1ad;
+  }
+}
