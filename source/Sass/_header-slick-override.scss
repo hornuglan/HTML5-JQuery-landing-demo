@@ -14,6 +14,9 @@
   color: transparent;
   opacity: 0.5;
 }
+.slick-dots li button:hover::before {
+  background-color: $menu-link-hover;
+}
 
 .slick-dots li.slick-active button:before {
   width: 15px;

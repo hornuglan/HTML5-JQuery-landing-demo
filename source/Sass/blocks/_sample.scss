@@ -7,7 +7,6 @@
   align-content: center;
   margin-right: auto;
   margin-left: auto;
-  z-index: 5;
   &__title {
     font-family: Raleway;
     font-size: 36px;
@@ -27,6 +26,7 @@
   &__button-link {
     box-shadow: inset 0 -3px 0 #736357;
     border-radius: 3px;
+    border: 0;
     background-color: #998675;
     color: $white;
     font-family: "Raleway - Extra Bold";
