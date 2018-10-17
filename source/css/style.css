@@ -6453,3 +6453,26 @@ a.text-dark:hover, a.text-dark:focus {
   opacity: 0.5; }
   .arrow-next:hover {
     fill: #d3c1ad; }
+
+.slick-dots {
+  bottom: 25px; }
+
+.slick-dots li.slick-active button {
+  padding-bottom: 2px; }
+
+.slick-dots li button:before {
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  color: transparent;
+  opacity: 0.5; }
+
+.slick-dots li.slick-active button:before {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: 2px solid #d3c1ad;
+  color: transparent;
+  background-color: transparent;
+  opacity: 1; }
