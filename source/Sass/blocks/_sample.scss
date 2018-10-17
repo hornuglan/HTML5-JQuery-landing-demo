@@ -1,6 +1,6 @@
 .sample {
   position: absolute;
-  max-width: 1230px;
+  max-width: 600px;
   color: $white;
   display: flex;
   flex-direction: column;
@@ -13,7 +13,7 @@
     font-weight: 500;
   }
   &__tagline {
-    font-family: "Raleway - Extra Bold";
+    font-family: Raleway;
     font-size: 52px;
     font-weight: 700;
   }
@@ -29,12 +29,12 @@
     border: 0;
     background-color: #998675;
     color: $white;
-    font-family: "Raleway - Extra Bold";
+    font-family: Raleway;
     font-size: 14px;
     font-weight: 400;
     line-height: 1.64;
     text-transform: uppercase;
-    padding: 21px 38px;
+    padding: 15px 38px;
     cursor: pointer;
     text-decoration: none;
   }
