@@ -217,8 +217,8 @@
                 <p class="projects__item-text card-text text-center">Photography, Holiday</p>
             </div>
             </div>
-            <div class="button d-flex justify-content-center">
-                <button type="button" href="#" class="button__link">Load More</button>
+            <div class="projects__button d-flex justify-content-center">
+                <button type="button" href="#" class="projects__button-link">Load More</button>
             </div>
         </div>
         <div class="promo" style="background: url(source/images/promo-img.jpg)">
@@ -453,5 +453,14 @@
         <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
         <script type="text/javascript" src="source/carousel/slick/slick.min.js"></script>
         <script src="source/script/header-carousel.js"></script>
+        <script>
+          $(".projects__button-link").click(function () {
+            $.ajax({
+              url: 'https://pixabay.com/api/?key=10435611-b9a609b9561aa23df5e533662&q=yellow+flowers&image_type=photo&pretty=true',
+              success: function(msg){
+                console.log(msg);
+              }
+          })})
+        </script>
     </body>
 </html>
