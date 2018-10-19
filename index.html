@@ -189,32 +189,32 @@
             <div class="projects__item col-sm-4 card-body">
                 <img class="projects__item-img card-img-top" src="source/images/projects-item-1-img.jpg">
                 <h3 class="projects__item-title h3 card-title text-center">Claritas Etiam Processus</h3>
-                <p class="projects__item-text card-text text-center">Photography, Nature</p>
+                <p class="projects__item-tag card-text text-center">Photography, Nature</p>
             </div>
             <div class="projects__item col-sm-4 card-body">
                 <img class="projects__item-img card-img-top" src="source/images/projects-item-2-img.jpg">
                 <h3 class="projects__item-title h3 card-title text-center">Quam Nutamus Farum</h3>
-                <p class="projects__item-text card-text text-center">Graphic Design, Mock-Up</p>
+                <p class="projects__item-tag card-text text-center">Graphic Design, Mock-Up</p>
             </div>
             <div class="projects__item col-sm-4 card-body">
                 <img class="projects__item-img card-img-top" src="source/images/projects-item-3-img.jpg">
                 <h3 class="projects__item-title h3 card-title text-center">Usus Legentis Videntur</h3>
-                <p class="projects__item-text card-text text-center">Photography, Holiday</p>
+                <p class="projects__item-tag card-text text-center">Photography, Holiday</p>
             </div>
             <div class="projects__item col-sm-4 card-body">
                 <img class="projects__item-img card-img-top" src="source/images/projects-item-4-img.jpg">
                 <h3 class="projects__item-title h3 card-title text-center">Claritas Etiam Processus</h3>
-                <p class="projects__item-text card-text text-center">Photography, Nature</p>
+                <p class="projects__item-tag card-text text-center">Photography, Nature</p>
             </div>
             <div class="projects__item col-sm-4 card-body">
                 <img class="projects__item-img card-img-top" src="source/images/projects-item-5-img.jpg">
                 <h3 class="projects__item-title h3 card-title text-center">Quam Nutamus Farum</h3>
-                <p class="projects__item-text card-text text-center">Graphic Design, Mock-Up</p>
+                <p class="projects__item-tag card-text text-center">Graphic Design, Mock-Up</p>
             </div>
             <div class="projects__item col-sm-4 card-body">
                 <img class="projects__item-img card-img-top" src="source/images/projects-item-6-img.jpg">
                 <h3 class="projects__item-title h3 card-title text-center">Usus Legehntis Videntur</h3>
-                <p class="projects__item-text card-text text-center">Photography, Holiday</p>
+                <p class="projects__item-tag card-text text-center">Photography, Holiday</p>
             </div>
             </div>
             <div class="projects__button d-flex justify-content-center">
@@ -453,14 +453,6 @@
         <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
         <script type="text/javascript" src="source/carousel/slick/slick.min.js"></script>
         <script src="source/script/header-carousel.js"></script>
-        <script>
-          $(".projects__button-link").click(function () {
-            $.ajax({
-              url: 'https://pixabay.com/api/?key=10435611-b9a609b9561aa23df5e533662&q=yellow+flowers&image_type=photo&pretty=true',
-              success: function(msg){
-                console.log(msg);
-              }
-          })})
-        </script>
+        <script src="source/script/projects-listing.js"></script>
     </body>
 </html>
