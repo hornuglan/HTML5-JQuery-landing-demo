@@ -8,8 +8,10 @@ $(".projects__button-link").click(function () {
       for (let i = 0; i < arr.length; i++) {
         images.push(arr[i].webformatURL);
       }
-      const newDiv = `<div><img src="${images[0]}"></div>`;
-      $('.projects__wrapper').append(newDiv)
+      for (let i = 0; i < images.length; i++) {
+        const newDiv = `<div><img src="${images[i]}"></div>`;
+        $('.projects__wrapper').append(newDiv)
+      }
     }
   })});
 
