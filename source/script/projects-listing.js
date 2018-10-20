@@ -1,6 +1,8 @@
+pageNumber = 1;
 $(".projects__button-link").click(function () {
+  pageNumber += 1;
   $.ajax({
-    url: 'https://pixabay.com/api/?key=10435611-b9a609b9561aa23df5e533662&q=yellow+flowers&image_type=photo&pretty=true',
+    url: `https://pixabay.com/api/?key=10435611-b9a609b9561aa23df5e533662&q=yellow+flowers&image_type=photo&pretty=true&page=${pageNumber}&per_page=6`,
     success: function (msg) {
       console.log(msg.hits);
       const images = msg.hits.map(function (item) {
