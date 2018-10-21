@@ -1,4 +1,5 @@
 pageNumber = 0;
+categoryButton = 'yellow+flowers';
 
 $(window).load(function () {
   loadImages();
@@ -8,10 +9,19 @@ $(".projects__button-link").click(function () {
   loadImages();
 });
 
+$(".category__item").click(function () {
+  pageNumber = 0;
+  categoryButton = $(this).context.innerText;
+
+  $('.projects__wrapper').empty();
+
+  loadImages();
+});
+
 function loadImages() {
   pageNumber += 1;
   $.ajax({
-    url: `https://pixabay.com/api/?key=10435611-b9a609b9561aa23df5e533662&q=yellow+flowers&image_type=photo&pretty=true&page=${pageNumber}&per_page=6`,
+    url: `https://pixabay.com/api/?key=10435611-b9a609b9561aa23df5e533662&q=${categoryButton}&image_type=photo&pretty=true&page=${pageNumber}&per_page=6`,
     success: function (msg) {
       const images = msg.hits.map(function (item) {
         return {url: item.webformatURL, tags: item.tags, title: item.user};
@@ -27,3 +37,5 @@ function loadImages() {
     }
   })
 }
+
+
