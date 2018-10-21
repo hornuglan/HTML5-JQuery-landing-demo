@@ -1,0 +1,13 @@
+.category {
+  display: flex;
+  justify-content: center;
+  &__item {
+    border-radius: 3px;
+    border: 1px solid #ebebeb;
+    cursor: pointer;
+    &:hover {
+      border-radius: 3px;
+      background-color: #998675;
+    }
+  }
+}

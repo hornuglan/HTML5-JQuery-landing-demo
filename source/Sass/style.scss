@@ -2,12 +2,11 @@
 @import "variables.scss";
 @import "mixins.scss";
 //@import "fonts.scss";
-@import "bootstrap-override.scss";
+@import "bootstrap-override";
 @import "./bootstrap/scss/bootstrap.scss";
 @import "blocks/page-header.scss";
 @import "blocks/logo.scss";
 @import "blocks/menu.scss";
 @import "blocks/sample.scss";
-@import "blocks/arrow.scss";
-@import "header-slick-override.scss";
-@import "blocks/projects.scss";
+//@import "blocks/carousel.scss";
+@import "blocks/category.scss";
