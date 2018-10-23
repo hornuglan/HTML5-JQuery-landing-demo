@@ -1,6 +1,5 @@
 header = document.getElementById("header");
 sticky = header.offsetTop;
-headerOffset = $("header").height();
 
 function scrollSpy() {
   $('body').scrollspy({
@@ -20,12 +19,14 @@ function attachingHeader() {
   }
 }
 
-  $('.nav-link').on('click', function (e) {
-    e.preventDefault();
-
-    $('html, body').animate({
-      scrollTop: $($(this).attr('href')).offset().top
-    }, 1000, 'linear');
-  });
+$('.nav-link').on('click',function(e) {
+  e.preventDefault();
+  let headerOffset = $("header").height();
+  let target = this.hash;
+  if ($(this).data('offset') != undefined) headerOffset = $(this).data('offset');
+  $('html, body').stop().animate({
+    'scrollTop': $(target).offset().top - headerOffset
+  }, 300);
+});
 
 
