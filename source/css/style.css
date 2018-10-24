@@ -214,9 +214,15 @@ body {
     display: flex;
     flex-direction: column;
     align-content: center;
-    padding: 210px 682px 207px 682px; }
+    padding: 210px 682px 188px 682px; }
   .promo__button {
-    cursor: pointer; }
+    cursor: pointer;
+    padding-top: 14px; }
+  .promo__description {
+    padding-top: 54px;
+    display: flex;
+    flex-direction: column;
+    align-content: center; }
   .promo__description-title {
     color: #ffffff;
     font-family: Raleway;
@@ -228,3 +234,11 @@ body {
     font-size: 16px;
     font-weight: 300;
     line-height: 1.75; }
+  .promo__time {
+    align-self: center;
+    padding-top: 16px;
+    color: #c7b299;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71; }
