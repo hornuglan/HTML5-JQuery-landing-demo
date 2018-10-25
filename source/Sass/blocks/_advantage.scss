@@ -1,0 +1,31 @@
+.advantage {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  fill: #555555;
+  cursor: pointer;
+  &__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55px;
+    height: 55px;
+  }
+  &__title {
+    color: #555555;
+    font-family: Raleway;
+    font-size: 22px;
+    font-weight: 600;
+    padding-top: 12px;
+  }
+  &__text {
+    color: #8c8c8c;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.71;
+    text-align: center;
+  }
+}
+
