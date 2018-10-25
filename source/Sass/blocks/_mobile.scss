@@ -1,0 +1,42 @@
+.mobile {
+  display: flex;
+  flex-direction: row;
+  padding-top: 81px;
+  padding-left: 29px;
+  &__img {}
+  &__text-block {
+    padding-top: 105px;
+    padding-left: 27px;
+  }
+  &__title {
+    color: #555555;
+    font-family: Raleway;
+    font-size: 30px;
+    font-weight: 400;
+  }
+  &__text {
+    color: #8c8c8c;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.75;
+    padding-top: 15px;
+  }
+  &__list {
+    padding-top: 15px;
+    padding-left: 100px;
+  }
+  &__list-item {
+    position: relative;
+    color: #8c8c8c;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 2;
+    &:before {
+      content: url("/HTML5-JQuery-landing-demo/source/images/icon-list-dot.svg");
+      position: absolute;
+      left: 10px;
+    }
+  }
+}
