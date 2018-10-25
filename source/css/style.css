@@ -229,18 +229,105 @@ body {
     line-height: 1.71;
     text-align: center; }
 
-.advantage__img:hover .advantage__title:hover {
-  fill: #c7b299;
-  color: #c7b299; }
+.projects__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-left: 15%;
+  padding-right: 15%;
+  overflow: unset; }
+
+.projects__header-title {
+  color: #555555;
+  font-family: Raleway;
+  font-size: 30px;
+  font-weight: 600; }
+
+.projects__header-text {
+  color: #8c8c8c;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.75;
+  padding-top: 5px; }
+
+.projects__wrapper {
+  max-width: 1197px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+
+.projects__item {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  background-color: #fbfaf8;
+  margin-bottom: 30px; }
+
+.projects__item-wrapper {
+  width: 370px;
+  height: 237px; }
+
+.projects__item-img {
+  width: 100%;
+  height: 100%; }
+
+.projects__item-info {
+  width: 100%;
+  padding-top: 26px;
+  padding-bottom: 7px;
+  padding-left: 30px; }
+
+.projects__item-title {
+  color: #c7b299;
+  font-family: Raleway;
+  font-size: 20px;
+  font-weight: 500; }
+
+.projects__item-tag {
+  color: #d1d1d1;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.43; }
+
+.projects__button {
+  display: flex;
+  justify-content: center; }
+
+.projects__button-link {
+  box-shadow: inset 0 -3px 0 #736357;
+  border-radius: 3px;
+  background-color: #998675;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Raleway;
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 1.64;
+  text-transform: uppercase;
+  padding: 12px 43px;
+  border: none; }
 
 .category {
   display: flex;
-  justify-content: center; }
+  justify-content: space-between;
+  padding: 20px 25% 40px; }
   .category__item {
+    background-color: transparent;
     border-radius: 3px;
     border: 1px solid #ebebeb;
-    cursor: pointer; }
+    cursor: pointer;
+    color: #8c8c8c;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.5;
+    padding: 5px 15px; }
     .category__item:hover {
+      color: #ffffff;
       border-radius: 3px;
       background-color: #998675; }
 

@@ -1,11 +1,20 @@
 .category {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  padding: 20px 25% 40px;
   &__item {
+    background-color: transparent;
     border-radius: 3px;
     border: 1px solid #ebebeb;
     cursor: pointer;
+    color: #8c8c8c;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.5;
+    padding: 5px 15px;
     &:hover {
+      color: $white;
       border-radius: 3px;
       background-color: #998675;
     }
