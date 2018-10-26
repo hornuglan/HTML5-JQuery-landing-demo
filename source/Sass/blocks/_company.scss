@@ -1,0 +1,31 @@
+.company {
+  width: 22%;
+  &__logo {
+    display: flex;
+    padding-top: 18px;
+  }
+  &__logo-img {}
+  &__logo-trademark {
+    color: $white;
+    font-family: Raleway;
+    font-size: 34px;
+    font-weight: 400;
+    letter-spacing: -1.36px;
+  }
+  &__text {
+    color: #555555;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.71;
+    padding-top: 22px;
+  }
+  &__button {
+    color: #d1d1d1;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 1.43;
+    padding-top: 24px;
+  }
+}

@@ -295,7 +295,8 @@ body {
 
 .projects__button {
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  padding-bottom: 80px; }
 
 .projects__button-link {
   box-shadow: inset 0 -3px 0 #736357;
@@ -465,6 +466,107 @@ body {
     padding: 12% 8% 11% 6%; }
   .clients__logo {
     display: flex; }
+
+.social {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #191919; }
+  .social__wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5% 4% 9%; }
+
+.company {
+  width: 22%; }
+  .company__logo {
+    display: flex;
+    padding-top: 18px; }
+  .company__logo-trademark {
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 34px;
+    font-weight: 400;
+    letter-spacing: -1.36px; }
+  .company__text {
+    color: #555555;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.71;
+    padding-top: 22px; }
+  .company__button {
+    color: #d1d1d1;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 1.43;
+    padding-top: 24px; }
+
+.blog {
+  width: 23%;
+  padding-top: 40px; }
+  .blog__title {
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 700; }
+  .blog__item {
+    font-family: Montserrat;
+    font-weight: 300; }
+  .blog__item-date {
+    color: #363636;
+    font-size: 12px;
+    line-height: 1.67;
+    padding-top: 9px; }
+  .blog__item-text {
+    color: #555555;
+    font-size: 14px;
+    line-height: 1.43; }
+
+.twitter {
+  width: 23%;
+  padding-top: 40px; }
+  .twitter__title {
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 700; }
+  .twitter__post {
+    color: #555555;
+    font-family: Montserrat;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.43;
+    padding-top: 9px; }
+  .twitter__post-text a {
+    color: #00bff3;
+    text-decoration: none; }
+  .twitter__post:last-child a {
+    color: #959595; }
+  .twitter__post-date {
+    color: #363636;
+    font-size: 12px;
+    line-height: 1.67; }
+
+.widget {
+  width: 25%;
+  padding-top: 40px; }
+  .widget__title {
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 700; }
+  .widget__wrapper {
+    max-width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 18px; }
+  .widget__img {
+    padding: 6px; }
 
 .page-footer {
   width: 100%;

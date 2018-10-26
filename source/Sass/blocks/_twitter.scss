@@ -1,0 +1,32 @@
+.twitter {
+  width: 23%;
+  padding-top: 40px;
+  &__title {
+    color: $white;
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  &__post {
+    color: #555555;
+    font-family: Montserrat;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.43;
+    padding-top: 9px;
+  }
+  &__post-text a {
+    color: #00bff3;
+    text-decoration: none;
+  }
+  &__post:last-child a {
+    color: #959595;
+  }
+  &__post-text {
+  }
+  &__post-date {
+    color: #363636;
+    font-size: 12px;
+    line-height: 1.67;
+  }
+}

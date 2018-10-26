@@ -1,0 +1,25 @@
+.blog {
+  width: 23%;
+  padding-top: 40px;
+  &__title {
+    color: $white;
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  &__item {
+    font-family: Montserrat;
+    font-weight: 300;
+  }
+  &__item-date {
+    color: #363636;
+    font-size: 12px;
+    line-height: 1.67;
+    padding-top: 9px;
+  }
+  &__item-text {
+    color: #555555;
+    font-size: 14px;
+    line-height: 1.43;
+  }
+}
