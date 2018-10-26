@@ -234,6 +234,12 @@ body {
     width: 70px;
     height: 3px;
     background-color: #f1eee9; }
+  .advantage:hover {
+    fill: #c7b299; }
+    .advantage:hover > h2 {
+      color: #c7b299; }
+    .advantage:hover:after {
+      background-color: #c7b299; }
 
 .projects__header {
   display: flex;

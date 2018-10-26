@@ -34,5 +34,14 @@
     height: 3px;
     background-color: #f1eee9;
   }
+  &:hover {
+    fill: $menu-link-hover;
+    & > h2 {
+      color: $menu-link-hover;
+    }
+    &:after {
+      background-color: $menu-link-hover;
+    }
+  }
 }
 
