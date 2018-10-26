@@ -1,0 +1,39 @@
+.post {
+  width: 32%;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #f8f8f8;
+  &__img {
+    width: 370px;
+    height: 220px;
+  }
+  &__body {
+    display: flex;
+    flex-direction: column;
+    padding-top: 25px;
+    padding-left: 29px;
+    padding-bottom: 28px;
+  }
+  &__title {
+    color: #555555;
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  &__text {
+    color: #8c8c8c;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.57;
+    padding-top: 5px;
+  }
+  &__button {}
+  &__link {
+    color: $menu-link-hover;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.43;
+  }
+}

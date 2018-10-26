@@ -1,0 +1,34 @@
+.recent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  &__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 75px 15% 18px;
+  }
+  &__header-title {
+    color: #555555;
+    font-family: Raleway;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+  }
+  &__header-text {
+    color: #8c8c8c;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.75;
+    text-align: center;
+    padding-top: 8px;
+  }
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 11px;
+    padding-right: 25px;
+  }
+}
