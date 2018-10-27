@@ -1,6 +1,9 @@
 .blog {
   width: 23%;
   padding-top: 40px;
+  & > div:last-of-type {
+    border: none;
+  }
   &__title {
     color: $white;
     font-family: Raleway;
@@ -10,6 +13,16 @@
   &__item {
     font-family: Montserrat;
     font-weight: 300;
+    border-bottom: 2px solid #252525;
+    cursor: pointer;
+    &:hover {
+      & > p:first-child {
+        color: $white;
+      }
+      & > p {
+        color: $menu-link-hover;
+      }
+    }
   }
   &__item-date {
     color: #363636;

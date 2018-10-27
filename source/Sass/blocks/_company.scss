@@ -21,11 +21,21 @@
     padding-top: 22px;
   }
   &__button {
+    display: flex;
     color: #d1d1d1;
     font-family: Montserrat;
     font-size: 13px;
     font-weight: 600;
     line-height: 1.43;
     padding-top: 24px;
+    cursor: pointer;
+  }
+  &__button-arrow {
+    width: 0;
+    height: 0;
+    border: 5px solid transparent;
+    border-left-color: #d1d1d1;
+    margin-top: 5px;
+    margin-left: 5px;
   }
 }
