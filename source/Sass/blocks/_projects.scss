@@ -36,6 +36,21 @@
     align-content: center;
     background-color: #fbfaf8;
     margin-bottom: 30px;
+    cursor: pointer;
+    &:hover {
+      background-color: #362f2d;
+      & > :first-child {
+        opacity: 0.3;
+      }
+      & > h3 {
+        color: $white;
+        background-color: transparent;
+      }
+      & > p {
+        color: $menu-link-hover;
+        background-color: transparent;
+      }
+    }
   }
   &__item-wrapper {
     width: 100%;
