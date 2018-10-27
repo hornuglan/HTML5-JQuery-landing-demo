@@ -30,6 +30,7 @@
     justify-content: space-between;
   }
   &__item {
+    width: 30%;
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -37,7 +38,7 @@
     margin-bottom: 30px;
   }
   &__item-wrapper {
-    width: 370px;
+    width: 100%;
     height: 237px;
   }
   &__item-img {

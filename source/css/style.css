@@ -272,6 +272,7 @@ body {
   justify-content: space-between; }
 
 .projects__item {
+  width: 30%;
   display: flex;
   flex-direction: column;
   align-content: center;
