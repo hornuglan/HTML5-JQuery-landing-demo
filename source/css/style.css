@@ -277,7 +277,8 @@ body {
 
 .slider__footer {
   background-image: linear-gradient(to right, #211b19 0%, #4e3427 100%);
-  display: flex; }
+  display: flex;
+  justify-content: space-around; }
 
 .slider__footer-info {
   display: flex;
@@ -438,7 +439,15 @@ body {
     padding: 16% 28% 14%; }
   .promo__button {
     cursor: pointer;
-    padding-top: 14px; }
+    padding-top: 14px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #000000;
+    opacity: 0.2;
+    align-self: center; }
+  .promo__button-img {
+    z-index: 5; }
   .promo__description {
     padding-top: 54px;
     display: flex;
