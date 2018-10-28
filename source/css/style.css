@@ -250,7 +250,9 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 82px; }
+  padding-top: 82px;
+  margin-bottom: -83px;
+  z-index: 1; }
 
 .slider__header {
   display: flex;
@@ -297,7 +299,9 @@ body {
   background-image: linear-gradient(to right, #211b19 0%, #4e3427 100%);
   display: flex;
   justify-content: space-between;
-  padding: 40px 62px 23px 60px; }
+  padding: 40px 62px 23px 60px;
+  z-index: 5;
+  position: relative; }
 
 .slider__footer-info {
   display: flex;
@@ -526,13 +530,6 @@ body {
     font-size: 16px;
     font-weight: 300;
     line-height: 2; }
-    .mobile__list-item:after {
-      content: '';
-      background: url("/HTML5-JQuery-landing-demo/source/images/icon-list-dot.svg");
-      position: absolute;
-      left: 10px;
-      width: 21px;
-      height: 21px; }
 
 .statistics {
   width: 100%;
