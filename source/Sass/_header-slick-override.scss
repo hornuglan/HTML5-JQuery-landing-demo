@@ -3,7 +3,7 @@
 }
 
 .slick-dots li.slick-active button {
-  padding-bottom: 2px;
+  padding-bottom: 0;
 }
 
 .slick-dots li button:before {
@@ -26,4 +26,9 @@
   color: transparent;
   background-color: transparent;
   opacity: 1;
+}
+
+.slick-dots li button:hover::before,
+.slick-dots li button:focus::before {
+  opacity: 0.5;
 }
