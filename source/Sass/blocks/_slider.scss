@@ -1,17 +1,25 @@
 .slider {
   &__wrapper {
     background-color: #fbfaf8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 82px;
+    margin-bottom: -85px;
+    z-index: 1;
   }
   &__header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-left: 17%;
+    padding-right: 17%;
   }
   &__header-title {
     color: #555555;
     font-family: Raleway;
     font-size: 30px;
-    font-weight: 400;
+    font-weight: 600;
   }
   &__header-text {
     color: #8c8c8c;
@@ -19,15 +27,25 @@
     font-size: 16px;
     font-weight: 300;
     line-height: 1.75;
+    text-align: center;
   }
   &__item-wrapper {
     display: flex;
+    padding-top: 24px;
   }
   &__item {
     width: 770px;
-    height: 400px;
+    height: 482px;
+    &:first-child {
+      margin-right: -540px;
+      margin-top: 82px;
+    }
     &:nth-child(2) {
-      height: 482px;
+      z-index: 5;
+    }
+    &:last-child {
+      margin-left: -540px;
+      margin-top: 82px;
     }
   }
   &__item-img {
@@ -37,13 +55,14 @@
   &__footer {
     background-image: linear-gradient(to right, #211b19 0%, #4e3427 100%);
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 40px 62px 23px 60px;
   }
   &__footer-info {
     display: flex;
     flex-direction: column;
   }
-  &__footer-titlw span {
+  &__footer-title span {
     color: $menu-link-hover;
   }
   &__footer-title {
@@ -66,8 +85,9 @@
     color: $white;
     font-family: Raleway;
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 800;
     line-height: 1.64;
     text-transform: uppercase;
+    padding: 13px 26px;
   }
 }

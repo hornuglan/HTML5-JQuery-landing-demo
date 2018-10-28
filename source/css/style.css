@@ -204,7 +204,7 @@ body {
     flex-direction: row;
     justify-content: center;
     padding-top: 5%;
-    padding-bottom: 15%; }
+    padding-bottom: 7%; }
 
 .advantage {
   display: flex;
@@ -246,34 +246,48 @@ body {
       background-color: #c7b299; }
 
 .slider__wrapper {
-  background-color: #fbfaf8; }
+  background-color: #fbfaf8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 82px; }
 
 .slider__header {
   display: flex;
   flex-direction: column;
-  align-items: center; }
+  align-items: center;
+  padding-left: 17%;
+  padding-right: 17%; }
 
 .slider__header-title {
   color: #555555;
   font-family: Raleway;
   font-size: 30px;
-  font-weight: 400; }
+  font-weight: 600; }
 
 .slider__header-text {
   color: #8c8c8c;
   font-family: Montserrat;
   font-size: 16px;
   font-weight: 300;
-  line-height: 1.75; }
+  line-height: 1.75;
+  text-align: center; }
 
 .slider__item-wrapper {
-  display: flex; }
+  display: flex;
+  padding-top: 24px; }
 
 .slider__item {
   width: 770px;
-  height: 400px; }
+  height: 482px; }
+  .slider__item:first-child {
+    margin-right: -540px;
+    margin-top: 82px; }
   .slider__item:nth-child(2) {
-    height: 482px; }
+    z-index: 5; }
+  .slider__item:last-child {
+    margin-left: -540px;
+    margin-top: 82px; }
 
 .slider__item-img {
   width: 100%;
@@ -282,13 +296,14 @@ body {
 .slider__footer {
   background-image: linear-gradient(to right, #211b19 0%, #4e3427 100%);
   display: flex;
-  justify-content: space-around; }
+  justify-content: space-between;
+  padding: 40px 62px 23px 60px; }
 
 .slider__footer-info {
   display: flex;
   flex-direction: column; }
 
-.slider__footer-titlw span {
+.slider__footer-title span {
   color: #c7b299; }
 
 .slider__footer-title {
@@ -310,9 +325,10 @@ body {
   color: #ffffff;
   font-family: Raleway;
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 800;
   line-height: 1.64;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  padding: 13px 26px; }
 
 .projects__header {
   display: flex;
@@ -321,6 +337,7 @@ body {
   text-align: center;
   padding-left: 15%;
   padding-right: 15%;
+  padding-top: 76px;
   overflow: unset; }
 
 .projects__header-title {
@@ -683,8 +700,8 @@ body {
     height: 0;
     border: 5px solid transparent;
     border-left-color: #c7b299;
-    margin-top: 7px;
-    margin-left: 7px; }
+    margin-top: 6px;
+    margin-left: 6px; }
 
 .clients {
   width: 100%;
