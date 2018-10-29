@@ -24,6 +24,7 @@ $(".category__item").click(function () {
 });
 
 function loadImages(queryText) {
+  preloader();
   pageNumber += 1;
   $.ajax({
     url: `https://pixabay.com/api/?key=10435611-b9a609b9561aa23df5e533662&image_type=photo&page=${pageNumber}&per_page=6${queryText}`,
@@ -45,6 +46,12 @@ function loadImages(queryText) {
       })
     }
   })
+}
+
+function preloader() {
+  $preloader = $('.lds-ring');
+  $preloader.fadeOut();
+  $preloader.delay(350).fadeOut('slow');
 }
 
 
