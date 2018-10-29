@@ -17,14 +17,14 @@ $(".category__item").click(function () {
   } else {
     queryText = `&q=${category}`;
   }
-
+  $spinner = $('.lds-ring');
   $('.projects__wrapper').empty();
-
+  $('.projects__wrapper').append($spinner);
   loadImages(queryText);
 });
 
 function loadImages(queryText) {
-  preloader();
+  $('.projects__wrapper .lds-ring').show();
   pageNumber += 1;
   $.ajax({
     url: `https://pixabay.com/api/?key=10435611-b9a609b9561aa23df5e533662&image_type=photo&page=${pageNumber}&per_page=6${queryText}`,
@@ -42,16 +42,16 @@ function loadImages(queryText) {
 <p class="projects__item-tag">${item.tags}</p>
 </div>
 </div>`;
-        $('.projects__wrapper').append(newDiv)
+        $('.projects__wrapper').append(newDiv);
+        preloader();
       })
     }
-  })
+  });
 }
 
 function preloader() {
-  $preloader = $('.lds-ring');
-  $preloader.fadeOut();
-  $preloader.delay(350).fadeOut('slow');
+  $spinner = $('.lds-ring');
+  $spinner.fadeOut();
+  $spinner.delay(350).fadeOut('slow');
 }
-
 

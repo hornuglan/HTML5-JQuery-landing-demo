@@ -365,10 +365,6 @@ body {
   flex-wrap: wrap;
   justify-content: space-between; }
 
-.projects__wrapper > .lds-ring {
-  justify-content: center;
-  align-items: center; }
-
 .projects__item {
   width: 30%;
   display: flex;
@@ -437,20 +433,21 @@ body {
 .lds-ring {
   display: inline-block;
   position: relative;
-  width: 64px;
-  height: 64px; }
+  width: 100px;
+  height: 100px;
+  align-self: center; }
 
 .lds-ring div {
   box-sizing: border-box;
   display: block;
   position: absolute;
-  width: 51px;
-  height: 51px;
+  width: 90px;
+  height: 90px;
   margin: 6px;
-  border: 6px solid #fed;
+  border: 6px solid #000;
   border-radius: 50%;
   animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
-  border-color: #fed transparent transparent transparent; }
+  border-color: #000 transparent transparent transparent; }
 
 .lds-ring div:nth-child(1) {
   animation-delay: -0.45s; }
