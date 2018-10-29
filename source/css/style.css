@@ -431,11 +431,17 @@ body {
   border: none; }
 
 .lds-ring {
-  display: inline-block;
   position: relative;
-  width: 100px;
-  height: 100px;
-  align-self: center; }
+  /*width: 100px;
+  height: 100px;*/
+  width: 100%;
+  height: 710px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  opacity: 0.5;
+  margin-bottom: -62%; }
 
 .lds-ring div {
   box-sizing: border-box;

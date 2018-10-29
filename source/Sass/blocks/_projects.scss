@@ -102,18 +102,25 @@
 }
 
 .lds-ring {
-  display: inline-block;
+  //display: inline-block;
   position: relative;
-  width: 64px;
-  height: 64px;
-  align-self: center;
+  /*width: 100px;
+  height: 100px;*/
+  width: 100%;
+  height: 710px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  opacity: 0.5;
+  margin-bottom: -62%;
 }
 .lds-ring div {
   box-sizing: border-box;
   display: block;
   position: absolute;
-  width: 51px;
-  height: 51px;
+  width: 90px;
+  height: 90px;
   margin: 6px;
   border: 6px solid #000;
   border-radius: 50%;

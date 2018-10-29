@@ -19,12 +19,14 @@ $(".category__item").click(function () {
   }
   $spinner = $('.lds-ring');
   $('.projects__wrapper').empty();
-  $('.projects__wrapper').append($spinner);
+  // $('.projects__wrapper').append($spinner);
   loadImages(queryText);
 });
 
 function loadImages(queryText) {
-  $('.projects__wrapper .lds-ring').show();
+  // $('.projects__wrapper .lds-ring').show();
+  $('.projects__button-link').text("Loading...");
+  $('.projects__button-link').attr("disabled", "disabled");
   pageNumber += 1;
   $.ajax({
     url: `https://pixabay.com/api/?key=10435611-b9a609b9561aa23df5e533662&image_type=photo&page=${pageNumber}&per_page=6${queryText}`,
@@ -43,15 +45,16 @@ function loadImages(queryText) {
 </div>
 </div>`;
         $('.projects__wrapper').append(newDiv);
-        preloader();
+        $('.projects__button-link').removeAttr("disabled");
+        $('.projects__button-link').text("Load more");
+        // preloader();
       })
     }
   });
 }
 
-function preloader() {
+/*function preloader() {
   $spinner = $('.lds-ring');
   $spinner.fadeOut();
   $spinner.delay(350).fadeOut('slow');
-}
-
+}*/
