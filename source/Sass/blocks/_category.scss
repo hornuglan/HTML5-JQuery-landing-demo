@@ -20,3 +20,31 @@
     }
   }
 }
+
+@media (max-width: $large) {
+  .category {
+    &__item {
+      font-size: 12px;
+      padding: 2px 5px;
+    }
+  }
+}
+
+  @media (max-width: $medium) {
+    .category {
+      padding: 12px 20% 25px;
+      &__item {
+        font-size: 10px;
+        padding: 2px 4px;
+      }
+    }
+  }
+
+  @media (max-width: $small) {
+    .category {
+      padding: 12px 15% 25px;
+      &__item {
+      }
+    }
+  }
+
