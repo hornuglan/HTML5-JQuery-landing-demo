@@ -894,6 +894,13 @@ body {
     padding-left: 46px;
     padding-right: 71px; }
 
+@media (max-width: 768px) {
+  .page-footer__wrapper {
+    flex-direction: column;
+    align-items: center;
+    padding-left: 25px;
+    padding-right: 25px; } }
+
 .copyright__item:after {
   content: '|';
   padding-right: 7px;
@@ -919,6 +926,10 @@ body {
     text-decoration: none;
     color: #c7b299; }
 
+@media (max-width: 992px) {
+  .copyright__link {
+    font-size: 10px; } }
+
 .design__item:after {
   content: '|';
   padding-right: 7px;
@@ -943,3 +954,7 @@ body {
   .design__link:hover {
     text-decoration: none;
     color: #c7b299; }
+
+@media (max-width: 992px) {
+  .design__link {
+    font-size: 10px; } }

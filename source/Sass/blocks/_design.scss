@@ -29,3 +29,26 @@
     }
   }
 }
+
+@media (max-width: $large) {
+  .design {
+    &__item {}
+    &__link {
+      font-size: 10px;
+    }
+  }
+}
+
+@media (max-width: $medium) {
+  .design {
+    &__item {}
+    &__link {}
+  }
+}
+
+@media (max-width: $small) {
+  .design {
+    &__item {}
+    &__link {}
+  }
+}
