@@ -45,3 +45,24 @@
   }
 }
 
+@media (max-width: $large) {
+  .advantage {
+    &__img {
+      width: 40px;
+      height: 40px;
+    }
+    &__title {
+      font-size: 18px;
+    }
+    &__text {
+      font-size: 12px;
+    }
+  }
+}
+@media (max-width: $medium) {
+  .advantage {
+    margin-bottom: 20px;
+    width: 45%;
+  }
+}
+

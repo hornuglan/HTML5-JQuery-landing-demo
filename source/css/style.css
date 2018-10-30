@@ -206,6 +206,10 @@ body {
     padding-top: 5%;
     padding-bottom: 7%; }
 
+@media (max-width: 768px) {
+  .features__wrapper {
+    flex-wrap: wrap; } }
+
 .advantage {
   display: flex;
   flex-direction: column;
@@ -244,6 +248,20 @@ body {
       color: #c7b299; }
     .advantage:hover:after {
       background-color: #c7b299; }
+
+@media (max-width: 992px) {
+  .advantage__img {
+    width: 40px;
+    height: 40px; }
+  .advantage__title {
+    font-size: 18px; }
+  .advantage__text {
+    font-size: 12px; } }
+
+@media (max-width: 768px) {
+  .advantage {
+    margin-bottom: 20px;
+    width: 45%; } }
 
 .slider__wrapper {
   background-color: #fbfaf8;
