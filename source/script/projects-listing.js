@@ -19,12 +19,12 @@ $(".category__item").click(function () {
   }
   $spinner = $('.lds-ring');
   $('.projects__wrapper').empty();
-  // $('.projects__wrapper').append($spinner);
+  $('.projects__wrapper').append($spinner);
   loadImages(queryText);
 });
 
 function loadImages(queryText) {
-  // $('.projects__wrapper .lds-ring').show();
+  $('.projects__wrapper .lds-ring').show();
   $('.projects__button-link').text("Loading...");
   $('.projects__button-link').attr("disabled", "disabled");
   pageNumber += 1;
@@ -47,14 +47,14 @@ function loadImages(queryText) {
         $('.projects__wrapper').append(newDiv);
         $('.projects__button-link').removeAttr("disabled");
         $('.projects__button-link').text("Load more");
-        // preloader();
+        preloader();
       })
     }
   });
 }
 
-/*function preloader() {
+function preloader() {
   $spinner = $('.lds-ring');
   $spinner.fadeOut();
   $spinner.delay(350).fadeOut('slow');
-}*/
+}
