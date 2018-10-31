@@ -367,8 +367,8 @@ body {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding-left: 15%;
-  padding-right: 15%;
+  padding-left: 15px;
+  padding-right: 15px;
   padding-top: 76px;
   overflow: unset; }
 
@@ -384,7 +384,8 @@ body {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.75;
-  padding-top: 5px; }
+  padding-top: 5px;
+  max-width: 760px; }
 
 .projects__wrapper {
   max-width: 1197px;
@@ -618,7 +619,8 @@ body {
     flex-wrap: wrap; }
     .category__item {
       margin-left: 5px;
-      margin-right: 5px; } }
+      margin-right: 5px;
+      margin-bottom: 5px; } }
 
 .promo {
   width: 100%;
