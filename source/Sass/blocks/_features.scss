@@ -11,6 +11,12 @@
   }
 }
 
+@media (max-width: $large) {
+  .features {
+    display: none;
+  }
+}
+
 @media (max-width: $medium) {
   .features {
     &__wrapper {

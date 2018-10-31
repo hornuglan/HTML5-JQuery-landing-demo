@@ -57,6 +57,7 @@
 
 @media (max-width: $large) {
   .promo {
+    display: none;
     &__wrapper {
       padding: 9% 28% 10%;
     }

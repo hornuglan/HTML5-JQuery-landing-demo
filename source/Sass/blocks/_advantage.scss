@@ -47,6 +47,7 @@
 
 @media (max-width: $large) {
   .advantage {
+    display: none;
     &__img {
       width: 40px;
       height: 40px;

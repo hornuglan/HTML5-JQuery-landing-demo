@@ -11,3 +11,9 @@
     padding: 5% 4% 9%;
   }
 }
+
+@media (max-width: $large) {
+  .social {
+    display: none;
+  }
+}

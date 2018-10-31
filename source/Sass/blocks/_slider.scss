@@ -93,3 +93,8 @@
     padding: 13px 26px;
   }
 }
+@media (max-width: $large) {
+  .slider {
+    display: none;
+  }
+}

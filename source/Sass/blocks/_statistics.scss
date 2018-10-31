@@ -47,6 +47,7 @@
 
 @media (max-width: $large) {
   .statistics {
+    display: none;
     &__wrapper {
       margin-right: auto;
       margin-left: auto;

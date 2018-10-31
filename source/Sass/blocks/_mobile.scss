@@ -25,6 +25,7 @@
   &__list {
     padding-top: 15px;
     padding-left: 100px;
+    list-style: none;
   }
   &__list-item {
     position: relative;
@@ -33,10 +34,10 @@
     font-size: 16px;
     font-weight: 300;
     line-height: 2;
-    &:before {
-      content: url("/HTML5-JQuery-landing-demo/source/images/icon-list-dot.svg");
-      position: absolute;
-      left: 10px;
-    }
+  }
+}
+@media (max-width: $large) {
+  .mobile {
+    display: none;
   }
 }

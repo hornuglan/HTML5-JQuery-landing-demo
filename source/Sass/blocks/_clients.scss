@@ -23,6 +23,7 @@
 
 @media (max-width: $large) {
   .clients {
+    display: none;
     &__wrapper {
       padding: 7% 8% 5% 6%;
     }
