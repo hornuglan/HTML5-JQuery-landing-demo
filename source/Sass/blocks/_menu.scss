@@ -25,3 +25,38 @@
     }
   }
 }
+ .mobile-menu__button-icon {
+   display: none;
+ }
+
+@media (max-width: $large) {
+  .mobile-menu__button-icon {
+    display: block;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 33px;
+    right: 23px;
+    padding: 0;
+    z-index: 2;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  .menu {
+    display: block;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    top: 100px;
+    right: 0;
+    left: 0;
+    &__item {
+      background-color: #362f2d;
+      border: 1px solid #d1d1d1;
+    }
+  }
+}
+
+
+
