@@ -131,6 +131,10 @@ body {
       font-size: 14px;
       font-weight: 300; }
 
+@media (max-width: 992px) {
+  .menu {
+    display: none; } }
+
 .sample {
   position: absolute;
   max-width: 600px;
@@ -411,6 +415,18 @@ body {
     .projects__item:hover > p {
       color: #c7b299;
       background-color: transparent; }
+
+.projects__item-wrapper {
+  position: relative;
+  padding-bottom: 75%;
+  overflow: hidden; }
+
+.projects__item-img {
+  position: absolute;
+  height: 100%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%; }
 
 .projects__item-info {
   width: 100%;
