@@ -6,6 +6,9 @@ body {
   position: relative;
   overflow-x: hidden; }
 
+.no-scroll {
+  overflow: hidden; }
+
 .container-fluid {
   position: relative;
   max-width: 1230px; }
@@ -139,7 +142,7 @@ body {
 .mobile-menu__button-icon {
   display: none; }
 
-@media (max-width: 992px) {
+@media (max-width: 768px) {
   .mobile-menu__button-icon {
     display: block;
     width: 60px;
@@ -153,7 +156,7 @@ body {
     border: none;
     cursor: pointer; }
   .menu {
-    display: block;
+    display: none;
     padding: 0;
     margin: 0;
     width: 100%;

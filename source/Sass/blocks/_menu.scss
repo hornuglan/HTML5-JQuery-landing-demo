@@ -29,7 +29,7 @@
    display: none;
  }
 
-@media (max-width: $large) {
+@media (max-width: $medium) {
   .mobile-menu__button-icon {
     display: block;
     width: 60px;
@@ -44,7 +44,7 @@
     cursor: pointer;
   }
   .menu {
-    display: block;
+    display: none;
     padding: 0;
     margin: 0;
     width: 100%;
