@@ -8,10 +8,7 @@ body {
 
 .container-fluid {
   position: relative;
-  max-width: 1230px;
-  margin-left: auto;
-  margin-right: auto;
-  overflow: hidden; }
+  max-width: 1230px; }
 
 .carousel {
   max-width: 1920px;
@@ -37,6 +34,14 @@ body {
   color: #c7b299;
   background-color: transparent;
   border-color: transparent; }
+
+@media (max-width: 1200px) {
+  .collapse:not(.show) {
+    display: flex; } }
+
+@media (max-width: 992px) {
+  .collapse:not(.show) {
+    display: none; } }
 
 .slick-dots {
   bottom: 25px; }
@@ -74,7 +79,7 @@ body {
   flex-direction: row;
   justify-content: space-around;
   z-index: 10;
-  height: 140px;
+  min-height: 140px;
   width: 100vw;
   transition: background 0.5s ease; }
 
@@ -83,10 +88,6 @@ body {
   top: 0;
   width: 100vw;
   background-color: rgba(27, 30, 33, 0.95); }
-
-@media (max-width: 992px) {
-  .page-header {
-    height: 405px; } }
 
 .logo {
   display: flex;
