@@ -23,3 +23,10 @@
     }
   }
 }
+@media (max-width: $medium) {
+  .logo {
+    &__trademark-link {
+      display: none;
+    }
+  }
+}

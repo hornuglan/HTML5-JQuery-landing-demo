@@ -32,14 +32,15 @@
 @media (max-width: $medium) {
   .mobile-menu__button-icon {
     display: block;
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     position: absolute;
-    top: 33px;
-    right: 23px;
+    top: 50px;
+    right: 40px;
     padding: 0;
     z-index: 2;
     background-color: transparent;
+    background-size: contain;
     border: none;
     cursor: pointer;
   }
@@ -54,6 +55,16 @@
     &__item {
       background-color: #362f2d;
       border: 1px solid #d1d1d1;
+      &:nth-child(9) {
+        display: none;
+      }
+      &:last-child {
+        display: none;
+      }
+    }
+    &__item-link {
+      padding-top: 15px;
+      padding-bottom: 15px;
     }
   }
 }
