@@ -1,7 +1,7 @@
 pageNumber = 0;
 queryText = "";
 
-$(window).load(function () {
+$(function () {
   loadImages(queryText);
 });
 
