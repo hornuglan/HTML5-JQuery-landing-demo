@@ -58,5 +58,13 @@
   }
 }
 
+.mobile-menu {
+  display: flex;
+}
+@media (max-width: $medium) {
+  .mobile-menu {
+    display: block;
+  }
+}
 
 
