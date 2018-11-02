@@ -32,3 +32,7 @@
 .slick-dots li button:focus::before {
   opacity: 0.5;
 }
+
+.slick-slide img {
+  height: 100vh;
+}
