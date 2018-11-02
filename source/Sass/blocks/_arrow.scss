@@ -29,8 +29,10 @@
   }
 }
 @media (max-width: $medium) {
-  .arrow-next,
+  .arrow-next {
+    display: none !important;
+  }
   .arrow-prev {
-    display: none;
+    display: none !important;
   }
 }
