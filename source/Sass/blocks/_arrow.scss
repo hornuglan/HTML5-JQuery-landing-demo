@@ -28,3 +28,9 @@
     fill: #d3c1ad;
   }
 }
+@media (max-width: $medium) {
+  .arrow-next,
+  .arrow-prev {
+    display: none;
+  }
+}
