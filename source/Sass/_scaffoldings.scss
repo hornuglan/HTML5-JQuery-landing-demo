@@ -9,5 +9,11 @@ body {
 }
 
 .no-scroll {
-  overflow: hidden;
+  overflow: scroll;
 }
+  @media (max-width: 768px) {
+    .no-scroll {
+      overflow: hidden;
+    }
+  }
+
