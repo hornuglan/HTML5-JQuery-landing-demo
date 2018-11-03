@@ -204,7 +204,9 @@ body {
     .menu__item-link {
       padding-top: 15px;
       padding-bottom: 15px;
-      font-size: 14px; } }
+      font-size: 14px; }
+      .menu__item-link:hover {
+        font-size: 14px; } }
 
 .mobile-menu {
   display: flex; }
