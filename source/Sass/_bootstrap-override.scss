@@ -35,6 +35,10 @@
   border-color: transparent;
 }
 
+.active {
+  background-color: transparent;
+}
+
 @media (max-width: $extra-large) {
   .collapse:not(.show) {
     display: flex;

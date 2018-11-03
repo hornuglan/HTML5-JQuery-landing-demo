@@ -1,6 +1,6 @@
 .menu {
   position: absolute;
-  top: 60px;
+  top: 53px;
   right: 15px;
   display: flex;
   flex-direction: row;
@@ -9,8 +9,8 @@
     text-decoration: none;
     color: $white;
     fill: $white;
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
     font-family: Montserrat;
     font-size: 14px;
     font-weight: 300;
@@ -27,6 +27,17 @@
 }
  .mobile-menu__button-icon {
    display: none;
+ }
+
+ @media (max-width: $large) {
+   .menu {
+     &__item-link {
+       font-size: 10px;
+       &:hover {
+         font-size: 10px;
+       }
+     }
+   }
  }
 
 @media (max-width: $medium) {
@@ -65,6 +76,7 @@
     &__item-link {
       padding-top: 15px;
       padding-bottom: 15px;
+      font-size: 14px;
     }
   }
 }
