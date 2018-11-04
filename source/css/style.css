@@ -1044,53 +1044,51 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
     padding: 5% 4% 9%; }
 
 @media (max-width: 992px) {
   .social {
     display: none; } }
 
-.company {
-  width: 22%; }
-  .company__logo {
-    display: flex;
-    padding-top: 18px; }
-  .company__logo-trademark {
-    color: #ffffff;
-    font-family: Raleway;
-    font-size: 34px;
-    font-weight: 400;
-    letter-spacing: -1.36px; }
-  .company__text {
-    color: #555555;
-    font-family: Montserrat;
-    font-size: 14px;
-    font-weight: 300;
-    line-height: 1.71;
-    padding-top: 22px; }
-  .company__button {
-    display: flex;
-    color: #d1d1d1;
-    font-family: Montserrat;
-    font-size: 13px;
-    font-weight: 600;
-    line-height: 1.43;
-    padding-top: 24px;
-    cursor: pointer; }
-  .company__button-arrow {
-    width: 0;
-    height: 0;
-    border: 5px solid transparent;
-    border-left-color: #d1d1d1;
-    margin-top: 5px;
-    margin-left: 5px; }
+.company__logo {
+  display: flex;
+  padding-top: 18px; }
 
-@media (max-width: 992px) {
-  .company {
-    display: none; } }
+.company__logo-trademark {
+  color: #ffffff;
+  font-family: Raleway;
+  font-size: 34px;
+  font-weight: 400;
+  letter-spacing: -1.36px; }
+
+.company__text {
+  color: #555555;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.71;
+  padding-top: 22px; }
+
+.company__button {
+  display: flex;
+  color: #d1d1d1;
+  font-family: Montserrat;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.43;
+  padding-top: 24px;
+  cursor: pointer; }
+
+.company__button-arrow {
+  width: 0;
+  height: 0;
+  border: 5px solid transparent;
+  border-left-color: #d1d1d1;
+  margin-top: 5px;
+  margin-left: 5px; }
 
 .blog {
-  width: 23%;
   padding-top: 40px; }
   .blog > div:last-of-type {
     border: none; }
@@ -1118,12 +1116,7 @@ body {
     font-size: 14px;
     line-height: 1.43; }
 
-@media (max-width: 992px) {
-  .blog {
-    display: none; } }
-
 .twitter {
-  width: 23%;
   padding-top: 40px; }
   .twitter > div:last-of-type {
     border: none; }
@@ -1151,7 +1144,6 @@ body {
     line-height: 1.67; }
 
 .widget {
-  width: 25%;
   padding-top: 40px; }
   .widget__title {
     color: #ffffff;
@@ -1165,6 +1157,8 @@ body {
     justify-content: space-around;
     padding-top: 18px; }
   .widget__img {
+    width: 130px;
+    height: auto;
     padding: 6px; }
 
 .page-footer {

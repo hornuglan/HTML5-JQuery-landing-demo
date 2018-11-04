@@ -1,5 +1,4 @@
 .company {
-  width: 22%;
   &__logo {
     display: flex;
     padding-top: 18px;
@@ -40,8 +39,3 @@
   }
 }
 
-@media (max-width: $large) {
-  .company {
-    display: none;
-  }
-}

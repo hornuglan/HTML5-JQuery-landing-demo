@@ -1,5 +1,4 @@
 .widget {
-  width: 25%;
   padding-top: 40px;
   &__title {
     color: $white;
@@ -15,6 +14,8 @@
     padding-top: 18px;
   }
   &__img {
+    width: 130px;
+    height: auto;
     padding: 6px;
   }
 }

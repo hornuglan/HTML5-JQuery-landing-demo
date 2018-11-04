@@ -1,5 +1,4 @@
 .blog {
-  width: 23%;
   padding-top: 40px;
   & > div:last-of-type {
     border: none;
@@ -36,12 +35,4 @@
     line-height: 1.43;
   }
 }
-@media (max-width: $large) {
-  .blog {
-    display: none;
-    &__title {}
-    &__item {}
-    &__item-date {}
-    &__item-text {}
-  }
-}
+
