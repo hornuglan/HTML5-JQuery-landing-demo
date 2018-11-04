@@ -1045,7 +1045,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 5% 4% 9%; }
+    padding: 50px 20px; }
 
 @media (max-width: 992px) {
   .social {
@@ -1154,12 +1154,12 @@ body {
     max-width: 300px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     padding-top: 18px; }
   .widget__img {
     width: 130px;
-    height: auto;
-    padding: 6px; }
+    padding: 0;
+    margin: 0 6px 6px 0; }
 
 .page-footer {
   width: 100%;
