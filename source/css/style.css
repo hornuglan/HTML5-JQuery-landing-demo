@@ -429,19 +429,19 @@ body {
 
 .slider__item-wrapper {
   display: flex;
-  padding-top: 24px; }
+  padding-top: 24px;
+  overflow-x: hidden; }
 
-.slider__item {
-  width: 770px;
-  height: 482px; }
-  .slider__item:first-child {
-    margin-right: -540px;
-    margin-top: 82px; }
-  .slider__item:nth-child(2) {
-    z-index: 5; }
-  .slider__item:last-child {
-    margin-left: -540px;
-    margin-top: 82px; }
+.slider__item:first-child {
+  margin-right: -540px;
+  margin-top: 82px; }
+
+.slider__item:nth-child(2) {
+  z-index: 5; }
+
+.slider__item:last-child {
+  margin-left: -540px;
+  margin-top: 82px; }
 
 .slider__item-img {
   width: 100%;
