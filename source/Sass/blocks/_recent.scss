@@ -27,7 +27,8 @@
   }
   &__wrapper {
     display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: center;
     padding-bottom: 37px;
   }
   &__button {

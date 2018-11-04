@@ -450,10 +450,15 @@ body {
 .slider__footer {
   background-image: linear-gradient(to right, #211b19 0%, #4e3427 100%);
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   padding: 40px 62px 23px 60px;
   z-index: 5;
   position: relative; }
+
+.slider__footer-wrapper {
+  max-width: 1170px;
+  display: flex;
+  justify-content: space-between; }
 
 .slider__footer-info {
   display: flex;
@@ -886,7 +891,8 @@ body {
     padding-top: 8px; }
   .recent__wrapper {
     display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: center;
     padding-bottom: 37px; }
   .recent__button {
     fill: #d1d1d1;
@@ -904,7 +910,6 @@ body {
 
 .post {
   position: relative;
-  width: 32%;
   display: flex;
   flex-direction: column;
   border: 1px solid #f8f8f8;
