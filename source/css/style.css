@@ -913,7 +913,8 @@ body {
   display: flex;
   flex-direction: column;
   border: 1px solid #f8f8f8;
-  cursor: pointer; }
+  cursor: pointer;
+  margin-bottom: 10px; }
   .post:hover {
     text-decoration: none;
     background-color: #362f2d; }
@@ -963,9 +964,7 @@ body {
   .post__body {
     display: flex;
     flex-direction: column;
-    padding-top: 25px;
-    padding-left: 29px;
-    padding-bottom: 28px; }
+    padding: 25px 29px 28px; }
   .post__title {
     color: #555555;
     font-family: Raleway;
