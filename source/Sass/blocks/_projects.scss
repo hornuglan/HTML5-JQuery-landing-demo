@@ -103,91 +103,6 @@
   }
 }
 
-/*
-@media (max-width: $large) {
-  .projects {
-    &__header {}
-    &__header-title {
-      font-size: 27px;
-    }
-    &__header-text {
-      font-size: 13px;
-    }
-    &__wrapper {}
-    &__item {}
-    &__item-wrapper {
-      height: 192px;
-    }
-    &__item-img {}
-    &__item-info {}
-    &__item-title {}
-    &__item-tag {}
-    &__button {}
-    &__button-link {}
-  }
-}
-
-@media (max-width: $medium) {
-  .projects {
-    &__header {}
-    &__header-title {
-      font-size: 25px;
-    }
-    &__header-text {
-      font-size: 11px;
-    }
-    &__wrapper {
-      max-width: 770px;
-      justify-content: space-around;
-    }
-    &__item {
-      width: 37%;
-    }
-    &__item-wrapper {
-    }
-    &__item-img {}
-    &__item-info {
-      padding-top: 20px;
-      padding-bottom: 5px;
-      padding-left: 20px;
-    }
-    &__item-title {
-      font-size: 16px;
-    }
-    &__item-tag {
-      font-size: 11px;
-    }
-    &__button {}
-    &__button-link {}
-  }
-}
-
-@media (max-width: $small) {
-  .projects {
-    &__header {}
-    &__header-title {
-      font-size: 23px;
-    }
-    &__header-text {}
-    &__wrapper {
-      max-width: 390px;
-      flex-direction: column;
-      align-items: center;
-      margin-left: auto;
-      margin-right: auto;
-    }
-    &__item {
-      width: 66%;
-    }
-    &__item-wrapper {}
-    &__item-img {}
-    &__item-info {}
-    &__item-title {}
-    &__item-tag {}
-    &__button {}
-    &__button-link {}
-  }
-}
 .lds-ring {
   position: relative;
   width: 100%;
@@ -229,4 +144,3 @@
   }
 }
 
-*/
