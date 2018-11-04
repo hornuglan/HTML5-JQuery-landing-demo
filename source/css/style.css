@@ -653,23 +653,8 @@ body {
   color: #ffffff;
   background-color: #998675; }
 
-@media (max-width: 992px) {
-  .category__item {
-    font-size: 12px;
-    padding: 2px 5px; } }
-
-@media (max-width: 768px) {
-  .category {
-    padding-top: 12px;
-    padding-bottom: 25px; }
-    .category__item {
-      font-size: 10px;
-      padding: 2px 4px; } }
-
 @media (max-width: 576px) {
   .category {
-    padding-top: 12px;
-    padding-bottom: 25px;
     justify-content: center;
     flex-wrap: wrap; }
     .category__item {
@@ -810,7 +795,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 70px 13% 59px 13%; }
+    padding: 70px 100px 59px 100px; }
   .statistics__item {
     display: flex;
     flex-direction: column;
