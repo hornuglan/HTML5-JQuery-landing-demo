@@ -455,14 +455,10 @@ body {
   z-index: 5;
   position: relative; }
 
-.slider__footer-wrapper {
-  max-width: 1170px;
-  display: flex;
-  justify-content: space-between; }
-
 .slider__footer-info {
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  padding-right: 200px; }
 
 .slider__footer-title span {
   color: #c7b299; }
@@ -478,6 +474,9 @@ body {
   font-family: Montserrat;
   font-size: 18px;
   font-weight: 300; }
+
+.slider__footer-button {
+  padding-left: 200px; }
 
 .slider__footer-link {
   box-shadow: inset 0 -3px 0 #736357;
