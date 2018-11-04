@@ -1172,6 +1172,7 @@ body {
   .page-footer__wrapper {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     width: 100%;
     padding-left: 46px;
@@ -1210,8 +1211,11 @@ body {
     color: #c7b299; }
 
 @media (max-width: 992px) {
-  .copyright__link {
-    font-size: 10px; } }
+  .copyright {
+    flex-wrap: wrap;
+    justify-content: center; }
+    .copyright__item {
+      white-space: nowrap; } }
 
 .design__item:after {
   content: '|';
@@ -1239,5 +1243,8 @@ body {
     color: #c7b299; }
 
 @media (max-width: 992px) {
-  .design__link {
-    font-size: 10px; } }
+  .design {
+    flex-wrap: wrap;
+    justify-content: center; }
+    .design__item {
+      white-space: nowrap; } }

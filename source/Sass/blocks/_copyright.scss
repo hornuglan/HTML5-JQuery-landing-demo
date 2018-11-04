@@ -32,23 +32,10 @@
 
 @media (max-width: $large) {
   .copyright {
-    &__item {}
-    &__link {
-      font-size: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    &__item {
+      white-space: nowrap;
     }
-  }
-}
-
-@media (max-width: $medium) {
-  .copyright {
-    &__item {}
-    &__link {}
-  }
-}
-
-@media (max-width: $small) {
-  .copyright {
-    &__item {}
-    &__link {}
   }
 }

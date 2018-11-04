@@ -32,23 +32,10 @@
 
 @media (max-width: $large) {
   .design {
-    &__item {}
-    &__link {
-      font-size: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    &__item {
+      white-space: nowrap;
     }
-  }
-}
-
-@media (max-width: $medium) {
-  .design {
-    &__item {}
-    &__link {}
-  }
-}
-
-@media (max-width: $small) {
-  .design {
-    &__item {}
-    &__link {}
   }
 }
