@@ -100,3 +100,10 @@
     margin-left: 6px;
   }
 }
+@media (max-width: $small) {
+  .post {
+    border: none;
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+}

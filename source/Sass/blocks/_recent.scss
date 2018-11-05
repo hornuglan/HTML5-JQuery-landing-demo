@@ -49,3 +49,12 @@
     }
   }
 }
+@media (max-width: $small) {
+  .recent {
+    padding-right: 0;
+    padding-left: 0;
+    &__wrapper {
+      width: 100%;
+    }
+  }
+}
