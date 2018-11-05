@@ -826,6 +826,8 @@ body {
     width: auto; } }
 
 @media (max-width: 576px) {
+  .mobile__img {
+    width: 100vw; }
   .mobile__text-block {
     padding-right: 20px;
     padding-left: 20px;
