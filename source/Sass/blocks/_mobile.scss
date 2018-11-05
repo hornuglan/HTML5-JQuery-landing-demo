@@ -34,15 +34,11 @@
     font-weight: 300;
     line-height: 2;
     &:before {
-      content: url('/source/images/icon-list-dot.svg');
+      content: url('../images/icon-list-dot.svg');
       position: absolute;
       left: -37px;
       top: 5px;
     }
   }
 }
-@media (max-width: $large) {
-  .mobile {
-    display: none;
-  }
-}
+
