@@ -1,11 +1,18 @@
 .mobile {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   padding-top: 81px;
-  padding-left: 29px;
-  &__img {}
+  &__wrapper {
+    width: 100%;
+    max-width: 1920px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
   &__text-block {
     padding-top: 105px;
+    max-width: 660px;
   }
   &__title {
     color: #555555;
@@ -41,4 +48,38 @@
     }
   }
 }
-
+@media (max-width: $large) {
+  .mobile {
+    &__img {
+      width: 50%;
+      padding-top: 80px;
+    }
+    &__text-block {
+      width: 50%;
+    }
+  }
+}
+@media (max-width: $medium) {
+  .mobile {
+    &__wrapper {
+      flex-direction: column;
+      align-items: center;
+    }
+    &__img {
+      width: auto;
+      padding-top: 0;
+    }
+    &__text-block {
+      width: auto;
+    }
+  }
+}
+@media (max-width: $small) {
+  .mobile {
+    &__text-block {
+      padding-right: 20px;
+      padding-left: 20px;
+      padding-top: 20px;
+    }
+  }
+}
