@@ -1,9 +1,10 @@
 .menu {
   position: absolute;
-  top: 53px;
+  top: 50px;
   right: 15px;
   display: flex;
   flex-direction: row;
+  align-items: center;
   list-style: none;
   &__item-link {
     text-decoration: none;
