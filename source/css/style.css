@@ -761,8 +761,7 @@ body {
   padding-top: 81px;
   padding-left: 29px; }
   .mobile__text-block {
-    padding-top: 105px;
-    padding-left: 27px; }
+    padding-top: 105px; }
   .mobile__title {
     color: #555555;
     font-family: Raleway;
@@ -777,7 +776,7 @@ body {
     padding-top: 15px; }
   .mobile__list {
     padding-top: 15px;
-    padding-left: 100px;
+    padding-left: 45px;
     list-style: none; }
   .mobile__list-item {
     position: relative;
@@ -785,7 +784,11 @@ body {
     font-family: Montserrat;
     font-size: 16px;
     font-weight: 300;
-    line-height: 2; }
+    line-height: 2;
+    display: flex;
+    align-items: center; }
+    .mobile__list-item:before {
+      content: url("/source/images/icon-list-dot.svg"); }
 
 @media (max-width: 992px) {
   .mobile {

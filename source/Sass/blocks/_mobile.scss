@@ -6,7 +6,6 @@
   &__img {}
   &__text-block {
     padding-top: 105px;
-    padding-left: 27px;
   }
   &__title {
     color: #555555;
@@ -24,7 +23,7 @@
   }
   &__list {
     padding-top: 15px;
-    padding-left: 100px;
+    padding-left: 45px;
     list-style: none;
   }
   &__list-item {
@@ -34,6 +33,12 @@
     font-size: 16px;
     font-weight: 300;
     line-height: 2;
+    &:before {
+      content: url('/source/images/icon-list-dot.svg');
+      position: absolute;
+      left: -37px;
+      top: 5px;
+    }
   }
 }
 @media (max-width: $large) {
