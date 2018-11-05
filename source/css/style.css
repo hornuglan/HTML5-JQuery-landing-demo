@@ -1040,16 +1040,13 @@ body {
   justify-content: center;
   background-color: #191919; }
   .social__wrapper {
+    max-width: 1920px;
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 50px 20px; }
-
-@media (max-width: 992px) {
-  .social {
-    display: none; } }
 
 .company__logo {
   display: flex;
