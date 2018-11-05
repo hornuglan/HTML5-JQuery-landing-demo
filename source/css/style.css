@@ -784,11 +784,12 @@ body {
     font-family: Montserrat;
     font-size: 16px;
     font-weight: 300;
-    line-height: 2;
-    display: flex;
-    align-items: center; }
+    line-height: 2; }
     .mobile__list-item:before {
-      content: url("/source/images/icon-list-dot.svg"); }
+      content: url("/source/images/icon-list-dot.svg");
+      position: absolute;
+      left: -37px;
+      top: 5px; }
 
 @media (max-width: 992px) {
   .mobile {
