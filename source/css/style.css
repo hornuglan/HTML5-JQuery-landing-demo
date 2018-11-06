@@ -778,6 +778,8 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center; }
+  .mobile__img img {
+    max-width: 100%; }
   .mobile__text-block {
     padding-top: 105px;
     max-width: 660px; }
