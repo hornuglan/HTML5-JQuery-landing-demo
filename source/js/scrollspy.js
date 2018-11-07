@@ -23,10 +23,8 @@ $('.nav-link').on('click',function(e) {
   e.preventDefault();
   let headerOffset = $("header").height();
   let target = this.hash;
-  if ($(this).data('offset') != undefined) headerOffset = $(this).data('offset');
+  if ($(this).data('offset') !== undefined) headerOffset = $(this).data('offset');
   $('html, body').stop().animate({
     'scrollTop': $(target).offset().top - headerOffset
   }, 300);
 });
-
-
