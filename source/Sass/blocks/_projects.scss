@@ -38,6 +38,8 @@
     background-color: #fbfaf8;
     margin-bottom: 30px;
     cursor: pointer;
+    animation-timing-function: ease-in-out;
+    animation-duration: 0.5s;
     &:hover {
       background-color: #362f2d;
       & > :first-child {

@@ -539,7 +539,11 @@ body {
   align-content: center;
   background-color: #fbfaf8;
   margin-bottom: 30px;
-  cursor: pointer; }
+  cursor: pointer;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s; }
   .projects__item:hover {
     background-color: #362f2d; }
     .projects__item:hover > :first-child {
