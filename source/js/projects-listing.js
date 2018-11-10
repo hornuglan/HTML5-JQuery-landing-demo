@@ -17,6 +17,8 @@ $(".category__item").click(function () {
   } else {
     queryText = `&q=${category}`;
   }
+  $('.category__item').removeClass("category-active");
+  $(this).addClass("category-active");
   $spinner = $('.lds-ring');
   $('.projects__wrapper').empty().append($spinner);
   loadImages(queryText);
@@ -34,7 +36,7 @@ function loadImages(queryText) {
       });
       images.forEach(function (item) {
         const newDiv = `<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-12">
-<div class="projects__item animated zoomIn">
+<div class="projects__item animated zoomIn" id="myModal" data-toggle="modal">
 <div class="projects__item-wrapper">
 <img class="projects__item-img img-fluid" src="${item.url}">
 </div>
