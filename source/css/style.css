@@ -117,8 +117,7 @@ body {
   position: absolute;
   left: 25px;
   top: 50%;
-  -webkit-transform: translate(0, -50%);
-          transform: translate(0, -50%);
+  transform: translate(0, -50%);
   cursor: pointer; }
   .logo__img {
     width: 64px;
@@ -153,8 +152,7 @@ body {
   position: absolute;
   top: 50%;
   right: 30px;
-  -webkit-transform: translate(0, -50%);
-          transform: translate(0, -50%);
+  transform: translate(0, -50%);
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -194,8 +192,7 @@ body {
     position: absolute;
     top: 50%;
     right: 40px;
-    -webkit-transform: translate(0, -50%);
-            transform: translate(0, -50%);
+    transform: translate(0, -50%);
     padding: 0;
     z-index: 2;
     background-color: transparent;
@@ -540,10 +537,8 @@ body {
   background-color: #fbfaf8;
   margin-bottom: 30px;
   cursor: pointer;
-  -webkit-animation-timing-function: ease-in-out;
-          animation-timing-function: ease-in-out;
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s; }
+  animation-timing-function: ease-in-out;
+  animation-duration: 0.5s; }
   .projects__item:hover {
     background-color: #362f2d; }
     .projects__item:hover > :first-child {
@@ -563,8 +558,7 @@ body {
 .projects__item-img {
   position: absolute;
   height: 100%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   left: 50%;
   top: 50%; }
 
@@ -634,37 +628,23 @@ body {
   margin: 6px;
   border: 6px solid #000;
   border-radius: 50%;
-  -webkit-animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
-          animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
   border-color: #000 transparent transparent transparent; }
 
 .lds-ring div:nth-child(1) {
-  -webkit-animation-delay: -0.45s;
-          animation-delay: -0.45s; }
+  animation-delay: -0.45s; }
 
 .lds-ring div:nth-child(2) {
-  -webkit-animation-delay: -0.3s;
-          animation-delay: -0.3s; }
+  animation-delay: -0.3s; }
 
 .lds-ring div:nth-child(3) {
-  -webkit-animation-delay: -0.15s;
-          animation-delay: -0.15s; }
-
-@-webkit-keyframes lds-ring {
-  0% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg); }
-  100% {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg); } }
+  animation-delay: -0.15s; }
 
 @keyframes lds-ring {
   0% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg); }
+    transform: rotate(0deg); }
   100% {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg); } }
+    transform: rotate(360deg); } }
 
 .category {
   display: flex;
@@ -1209,7 +1189,7 @@ body {
     justify-content: space-between;
     padding-top: 18px; }
   .widget__img {
-    width: 130px;
+    max-width: 130px;
     padding: 0;
     margin: 0 6px 6px 0; }
 
