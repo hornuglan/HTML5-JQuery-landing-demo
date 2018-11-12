@@ -3,3 +3,6 @@
     $('body').toggleClass("no-scroll");
   });
 
+$('.hamburger').on("click", function (e) {
+  $('.hamburger').toggleClass("is-active")
+});
