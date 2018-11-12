@@ -1,11 +1,11 @@
 // Hamburger
 // ==================================================
 .hamburger {
-  padding-top: $hamburger-padding-y;
+  /*padding-top: $hamburger-padding-y;
   padding-right: $hamburger-padding-x;
   padding-left: $hamburger-padding-x;
-  padding-bottom: $hamburger-padding-y;
-  display: inline-block;
+  padding-bottom: $hamburger-padding-y;*/
+  //display: inline-block;
   cursor: pointer;
 
   transition-property: opacity, filter;
@@ -14,7 +14,7 @@
 
   // Normalize (<button>)
   font: inherit;
-  color: inherit;
+  color: white;
   text-transform: none;
   background-color: transparent;
   border: 0;
@@ -53,9 +53,11 @@
   height: $hamburger-layer-height * 3 + $hamburger-layer-spacing * 2;
   display: inline-block;
   position: relative;
+  vertical-align: middle;
 }
 
 .hamburger-inner {
+  color: white;
   display: block;
   top: 50%;
   margin-top: $hamburger-layer-height / -2;

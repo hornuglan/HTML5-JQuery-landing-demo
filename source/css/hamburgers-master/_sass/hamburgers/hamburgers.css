@@ -6,17 +6,16 @@
  * @link https://github.com/jonsuh/hamburgers
  */
 .hamburger {
-  padding-top: 15px;
-  padding-right: 15px;
-  padding-left: 15px;
-  padding-bottom: 15px;
-  display: inline-block;
+  /*padding-top: $hamburger-padding-y;
+  padding-right: $hamburger-padding-x;
+  padding-left: $hamburger-padding-x;
+  padding-bottom: $hamburger-padding-y;*/
   cursor: pointer;
   transition-property: opacity, filter;
   transition-duration: 0.15s;
   transition-timing-function: linear;
   font: inherit;
-  color: inherit;
+  color: white;
   text-transform: none;
   background-color: transparent;
   border: 0;
@@ -29,22 +28,24 @@
   .hamburger.is-active .hamburger-inner,
   .hamburger.is-active .hamburger-inner::before,
   .hamburger.is-active .hamburger-inner::after {
-    background-color: #000; }
+    background-color: #c7b299; }
 
 .hamburger-box {
   width: 40px;
   height: 24px;
   display: inline-block;
-  position: relative; }
+  position: relative;
+  vertical-align: middle; }
 
 .hamburger-inner {
+  color: white;
   display: block;
   top: 50%;
   margin-top: -2px; }
   .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
     width: 40px;
     height: 4px;
-    background-color: #000;
+    background-color: #c7b299;
     border-radius: 4px;
     position: absolute;
     transition-property: transform;

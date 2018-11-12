@@ -30,6 +30,9 @@
  .mobile-menu__button-icon {
    display: none;
  }
+ .hamburger {
+   display: none;
+ }
 
  @media (max-width: $large) {
    .menu {
@@ -43,6 +46,9 @@
  }
 
 @media (max-width: $medium) {
+  .hamburger {
+    display: inline-block;
+  }
   .mobile-menu__button-icon {
     display: block;
     width: 40px;
