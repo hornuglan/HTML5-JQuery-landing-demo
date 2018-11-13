@@ -6,22 +6,9 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding-top: 5%;
-    padding-bottom: 7%;
-  }
-}
-
-@media (max-width: $large) {
-  .features {
-    display: none;
-  }
-}
-
-@media (max-width: $medium) {
-  .features {
-    &__wrapper {
-      flex-wrap: wrap;
-    }
+    flex-wrap: wrap;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 }
 
