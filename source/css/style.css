@@ -184,11 +184,13 @@ body {
   display: none; }
 
 @media (max-width: 992px) {
+  .menu__item:nth-child(3) {
+    display: none; }
   .menu__item-link {
-    font-size: 10px;
-    padding-right: 5px; }
+    font-size: 12px;
+    padding-right: 10px; }
     .menu__item-link:hover {
-      font-size: 10px; } }
+      font-size: 12px; } }
 
 @media (max-width: 768px) {
   .hamburger {

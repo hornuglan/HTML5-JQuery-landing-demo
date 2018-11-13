@@ -36,11 +36,16 @@
 
  @media (max-width: $large) {
    .menu {
+     &__item {
+       &:nth-child(3) {
+         display: none;
+       }
+     }
      &__item-link {
-       font-size: 10px;
-       padding-right: 5px;
+       font-size: 12px;
+       padding-right: 10px;
        &:hover {
-         font-size: 10px;
+         font-size: 12px;
        }
      }
    }
