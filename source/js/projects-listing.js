@@ -39,7 +39,7 @@ function loadImages(queryText) {
           `<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-12" data-toggle="modal" data-target=".projects__item">
 <div class="projects__item animated zoomIn"> 
 <div class="projects__item-wrapper">
-<img class="projects__item-img img-fluid" src="${item.url}">
+<img class="projects__item-img" src="${item.url}">
 </div>
 <div class="projects__item-info">
 <h3 class="projects__item-title">${item.title}</h3>
