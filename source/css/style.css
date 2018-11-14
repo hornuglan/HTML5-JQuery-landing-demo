@@ -247,10 +247,8 @@ body {
  * @link https://github.com/jonsuh/hamburgers
  */
 .hamburger {
-  /*padding-top: $hamburger-padding-y;
-  padding-right: $hamburger-padding-x;
-  padding-left: $hamburger-padding-x;
-  padding-bottom: $hamburger-padding-y;*/
+  /*padding: $hamburger-padding-y $hamburger-padding-x;
+  display: inline-block;*/
   cursor: pointer;
   transition-property: opacity, -webkit-filter;
   transition-property: opacity, filter;
@@ -258,7 +256,7 @@ body {
   transition-duration: 0.15s;
   transition-timing-function: linear;
   font: inherit;
-  color: white;
+  color: inherit;
   text-transform: none;
   background-color: transparent;
   border: 0;
@@ -277,11 +275,9 @@ body {
   width: 40px;
   height: 24px;
   display: inline-block;
-  position: relative;
-  vertical-align: middle; }
+  position: relative; }
 
 .hamburger-inner {
-  color: white;
   display: block;
   top: 50%;
   margin-top: -2px; }
