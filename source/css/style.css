@@ -1634,7 +1634,7 @@ body {
       color: #ffffff; }
   .post__img {
     width: 100%;
-    height: 220px; }
+    height: auto; }
   .post__date {
     position: absolute;
     top: 20px;
