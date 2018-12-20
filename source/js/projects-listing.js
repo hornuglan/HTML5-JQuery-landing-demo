@@ -36,8 +36,8 @@ function loadImages(queryText) {
       });
       images.forEach(function (item) {
         const newDiv =
-          `<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-12" data-toggle="modal" data-target=".projects__item">
-            <div class="projects__item animated zoomIn"> 
+          `<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-12">
+            <div class="projects__item animated zoomIn">
               <div class="projects__item-wrapper">
                 <img class="projects__item-img" src="${item.url}">
               </div>
